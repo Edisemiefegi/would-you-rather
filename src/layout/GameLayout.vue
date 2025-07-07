@@ -39,7 +39,7 @@ import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
 
 defineProps<{
-  heading: string;
+  heading?: string;
   text?: string;
   icon?: string;
   tags?: string[];

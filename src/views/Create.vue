@@ -1,6 +1,10 @@
 <template>
   <main class="p-4">
-    <Button @click="router.push('/')" variant="clear" class="flex items-center gap-2">
+    <Button
+      @click="router.push('/')"
+      variant="clear"
+      class="flex items-center gap-2"
+    >
       <i class="pi pi-arrow-left" />
       Back to Home
     </Button>
@@ -33,17 +37,20 @@
         <!-- Form -->
         <form class="space-y-6">
           <div>
-         
             <div class="flex items-center justify-center gap-4">
-              <Select  
-               v-model="selectedTopic"
-              :options="topic.option"
-              :label="topic.label"
-              :placeholder="'pick a topic to start'"/>
-              <Input class="mt-6" type="text" v-model="name" placeholder="Enter your name.."/>
-             
+              <Select
+                v-model="selectedTopic"
+                :options="topic.option"
+                :label="topic.label"
+                :placeholder="'pick a topic to start'"
+              />
+              <Input
+                class="mt-6"
+                type="text"
+                v-model="name"
+                placeholder="Enter your name.."
+              />
             </div>
-           
           </div>
 
           <!--  Select Fields -->
@@ -95,20 +102,19 @@ import { ref, computed } from "vue";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
 import Select from "../components/base/Select.vue";
-import GameLayout from "../layout/GameLayout.vue"; 
+import GameLayout from "../layout/GameLayout.vue";
 import Input from "../components/base/Input.vue";
 import { useRouter } from "vue-router";
 import { useGamestore } from "../store/game";
-import {auth} from "../service/firebase"
+import { auth } from "../service/firebase";
 
-const store = useGamestore()
+const store = useGamestore();
 
+const router = useRouter();
 
-const router = useRouter()
-
-const name = ref('');
-const selectedTopic = ref('');
-const previews = ref([])
+const name = ref("");
+const selectedTopic = ref("");
+const previews = ref([]);
 
 type Option = { label: string; value: string };
 
@@ -120,42 +126,48 @@ interface SelectSetting {
   };
 }
 const topic: Record<string, Object> = {
-  option: [ { label: 'Funny', value: 'funny' },
-  { label: 'Food', value: 'food' },
-  { label: 'Travel', value: 'travel' },
-  { label: 'Relationships', value: 'relationships' },
-  { label: 'Superpowers', value: 'superpowers' },
-  { label: 'Lifestyle', value: 'lifestyle' },
-  { label: 'Tech', value: 'tech' },
-  { label: 'Random', value: 'random' },
-  { label: 'Deep', value: 'deep' },
-  { label: 'School', value: 'school' },
-  { label: 'Career', value: 'career' },
-  { label: 'Gaming', value: 'gaming' },
-  { label: 'Entertainment', value: 'entertainment' },
-  { label: 'Sports', value: 'sports' },
-  { label: 'Friendship', value: 'friendship' },
-  { label: 'Family', value: 'family' },
-  { label: 'Money', value: 'money' },
-  { label: 'Health', value: 'health' },
-  { label: 'Animals', value: 'animals' },
-  { label: 'Fantasy', value: 'fantasy' }],
-      label: { text: "Game Title", icon: "pi pi-trophy text-amber-500" },
-
-}
+  option: [
+    { label: "Funny", value: "funny" },
+    { label: "Food", value: "food" },
+    { label: "Travel", value: "travel" },
+    { label: "Relationships", value: "relationships" },
+    { label: "Superpowers", value: "superpowers" },
+    { label: "Lifestyle", value: "lifestyle" },
+    { label: "Tech", value: "tech" },
+    { label: "Random", value: "random" },
+    { label: "Deep", value: "deep" },
+    { label: "School", value: "school" },
+    { label: "Career", value: "career" },
+    { label: "Gaming", value: "gaming" },
+    { label: "Entertainment", value: "entertainment" },
+    { label: "Sports", value: "sports" },
+    { label: "Friendship", value: "friendship" },
+    { label: "Family", value: "family" },
+    { label: "Money", value: "money" },
+    { label: "Health", value: "health" },
+    { label: "Animals", value: "animals" },
+    { label: "Fantasy", value: "fantasy" },
+  ],
+  label: { text: "Game Title", icon: "pi pi-trophy text-amber-500" },
+};
 
 const preview = computed(() => {
   const topicLabel =
-    topic.option.find((t: any) => t.value === selectedTopic.value)?.label || 'No topic selected';
+    topic.option.find((t: any) => t.value === selectedTopic.value)?.label ||
+    "No topic selected";
 
-  const rounds = selected.value.rounds ? `${selected.value.rounds} rounds` : 'Rounds not selected';
-  const time = selected.value.time ? `${selected.value.time}s per round` : 'Time not selected';
-  const players = selected.value.players ? `Up to ${selected.value.players} players` : 'Players not selected';
+  const rounds = selected.value.rounds
+    ? `${selected.value.rounds} rounds`
+    : "Rounds not selected";
+  const time = selected.value.time
+    ? `${selected.value.time}s per round`
+    : "Time not selected";
+  const players = selected.value.players
+    ? `Up to ${selected.value.players} players`
+    : "Players not selected";
 
   return [topicLabel, rounds, time, players];
 });
-
-
 
 const settings: Record<string, SelectSetting> = {
   rounds: {
@@ -193,15 +205,24 @@ const selected = ref<Record<string, string>>({
   players: "",
 });
 
-
 const CreatGame = async () => {
-   if (!name.value || !selectedTopic.value || !selected.value.rounds || !selected.value.time || !selected.value.players) {
+  if (
+    !name.value ||
+    !selectedTopic.value ||
+    !selected.value.rounds ||
+    !selected.value.time ||
+    !selected.value.players
+  ) {
     alert("Please fill all fields!");
     return;
   }
 
+  const userId = auth.currentUser?.uid;
 
-const userId = auth.currentUser?.uid;
+  if (!userId) {
+    console.error("userId not found");
+    return;
+  }
 
   const gameId = await store.createGame({
     title: selectedTopic.value,
@@ -213,9 +234,8 @@ const userId = auth.currentUser?.uid;
     userName: name.value,
   });
 
+  console.log(gameId, store.currentGameId, "userinputs");
 
-  console.log(gameId, store.currentGameId, 'userinputs');
-  
-  router.push(`/lobby?id=${store.currentGameId}`);}
-
+  router.push(`/lobby?id=${store.currentGameId}`);
+};
 </script>

@@ -166,22 +166,22 @@ const stepCard = ref([
 
 const question = ref<string>('')
 
-const fetchQuestion = async (): Promise<void> => {
-  try {
-    const response = await fetch('https://would-you-rather-api.abaanshanid.repl.co')
-    const data: { data: string; id: number } = await response.json()
-    question.value = data.data
-    console.log(question.value, 'sss');
+// const fetchQuestion = async (): Promise<void> => {
+//   try {
+//     const response = await fetch('https://would-you-rather-api.abaanshanid.repl.co')
+//     const data: { data: string; id: number } = await response.json()
+//     question.value = data.data
+//     console.log(question.value, 'sss');
     
-  } catch (error) {
-    console.error('Failed to fetch question:', error)
-    question.value = 'Something went wrong while fetching the question.'
-  }
-}
+//   } catch (error) {
+//     console.error('Failed to fetch question:', error)
+//     question.value = 'Something went wrong while fetching the question.'
+//   }
+// }
 
-onMounted(() => {
-  fetchQuestion()
-})
+// onMounted(() => {
+//   fetchQuestion()
+// })
 const router = useRouter()
 
 const startGame = (item) => {
