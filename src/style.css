@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@import 'primeicons/primeicons.css'
+
+/* 
+ @theme {
+  --color-primary{
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+  }
+} */
+
