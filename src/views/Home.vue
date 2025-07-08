@@ -75,7 +75,7 @@
       <div class="grid md:grid-cols-3 gap-6 grid-cols-1">
         <Card
           v-for="item in stepCard"
-          :key="item.icon"
+          :key="item?.button"
           class="flex items-center flex-col gap-6"
         >
           <Button size="large" class="!rounded-xl !text-2xl font-bold">
@@ -107,10 +107,17 @@
 </template>
 
 <script setup lang="ts">
-import { useRouter } from "vue-router";
+import {  useRouter } from "vue-router";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
-import { ref, onMounted } from "vue";
+import { onMounted, ref,  } from "vue";
+import { useGamestore } from "../store/game";
+
+
+const store = useGamestore()
+
+// console.log(game, store.currentUserId, 'sjssj');
+
 
 const buttons = ref([
   {
@@ -137,11 +144,11 @@ const gameCard = ref([
     btnIcon: "pi pi-sparkles",
   },
   {
-    path: "/lobby",
+    path: `lobby?id=${store.currentGameId}`,
     icon: "pi pi-users",
-    heading: "Join Game Demo",
-    text: "Experience the fun with our interactive demo",
-    button: "Try Demo Now",
+    heading: "Join Game",
+    text: "Experience the fun with our interactive game",
+    button: "Join Now",
     btnIcon: "pi pi-heart",
   },
 ]);
@@ -164,27 +171,17 @@ const stepCard = ref([
   },
 ]);
 
-const question = ref<string>('')
 
-// const fetchQuestion = async (): Promise<void> => {
-//   try {
-//     const response = await fetch('https://would-you-rather-api.abaanshanid.repl.co')
-//     const data: { data: string; id: number } = await response.json()
-//     question.value = data.data
-//     console.log(question.value, 'sss');
-    
-//   } catch (error) {
-//     console.error('Failed to fetch question:', error)
-//     question.value = 'Something went wrong while fetching the question.'
-//   }
-// }
+onMounted(() => {
+// store.uploadQuestions()
+console.log('sgsg');
 
-// onMounted(() => {
-//   fetchQuestion()
-// })
+})
+
+
 const router = useRouter()
 
-const startGame = (item) => {
+const startGame = (item: string) => {
 router.push(item)
 }
 </script>

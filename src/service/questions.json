@@ -1,0 +1,3602 @@
+ [
+  {
+    "questionid": 1,
+    "questioncategory": "Funny",
+    "option1": "Have a permanent clown nose that honks when you sneeze",
+    "option2": "Have to wear shoes on your hands instead of gloves"
+  },
+  {
+    "questionid": 2,
+    "questioncategory": "Funny",
+    "option1": "Only be able to speak in rhymes",
+    "option2": "Only be able to speak in movie quotes"
+  },
+  {
+    "questionid": 3,
+    "questioncategory": "Funny",
+    "option1": "Have your voice replaced by a kazoo every time you laugh",
+    "option2": "Have glitter explode from your pockets every time you stand up"
+  },
+  {
+    "questionid": 4,
+    "questioncategory": "Funny",
+    "option1": "Be able to talk to animals but they only respond with knock-knock jokes",
+    "option2": "Have all traffic lights turn green for you but only when you're late"
+  },
+  {
+    "questionid": 5,
+    "questioncategory": "Funny",
+    "option1": "Have to wear a full-body animal costume every day",
+    "option2": "Have to sing everything you say"
+  },
+  {
+    "questionid": 6,
+    "questioncategory": "Funny",
+    "option1": "Have everything you touch turn into jello for 5 minutes",
+    "option2": "Only be able to communicate through interpretive dance"
+  },
+  {
+    "questionid": 7,
+    "questioncategory": "Funny",
+    "option1": "Have to wear socks on your ears",
+    "option2": "Have to eat all your meals with a spoon, regardless of the food"
+  },
+  {
+    "questionid": 8,
+    "questioncategory": "Funny",
+    "option1": "Have a permanent unibrow",
+    "option2": "Have a tiny, annoying bell attached to your nose that rings with every step"
+  },
+  {
+    "questionid": 9,
+    "questioncategory": "Funny",
+    "option1": "Be invisible only when no one is looking",
+    "option2": "Be able to fly but only 2 inches off the ground"
+  },
+  {
+    "questionid": 10,
+    "questioncategory": "Funny",
+    "option1": "Have all your food taste like plain crackers",
+    "option2": "Have all your drinks taste like unsweetened tea"
+  },
+  {
+    "questionid": 11,
+    "questioncategory": "Funny",
+    "option1": "Always have wet socks",
+    "option2": "Always have a pebble in your shoe"
+  },
+  {
+    "questionid": 12,
+    "questioncategory": "Funny",
+    "option1": "Be able to breathe underwater but only in a bathtub",
+    "option2": "Be able to talk to plants but they only complain about their sunlight"
+  },
+  {
+    "questionid": 13,
+    "questioncategory": "Funny",
+    "option1": "Have your hands permanently stuck in the 'jazz hands' position",
+    "option2": "Have to walk everywhere backward"
+  },
+  {
+    "questionid": 14,
+    "questioncategory": "Funny",
+    "option1": "Have a tiny alien living in your belly button who judges your life choices",
+    "option2": "Have a personal theme song play loudly every time you enter a room"
+  },
+  {
+    "questionid": 15,
+    "questioncategory": "Funny",
+    "option1": "Be able to understand babies but they only speak in riddles",
+    "option2": "Be able to control pigeons but they only follow your commands when you're asleep"
+  },
+  {
+    "questionid": 16,
+    "questioncategory": "Funny",
+    "option1": "Have your hair grow a foot every day",
+    "option2": "Have your fingernails grow an inch every hour"
+  },
+  {
+    "questionid": 17,
+    "questioncategory": "Funny",
+    "option1": "Only be able to whisper",
+    "option2": "Only be able to shout"
+  },
+  {
+    "questionid": 18,
+    "questioncategory": "Funny",
+    "option1": "Have to wear mismatched shoes every day",
+    "option2": "Have to wear a hat made of cheese"
+  },
+  {
+    "questionid": 19,
+    "questioncategory": "Funny",
+    "option1": "Have a tiny, invisible dragon that follows you around and breathes confetti",
+    "option2": "Have a personal narrator for your life who only speaks in a silly voice"
+  },
+  {
+    "questionid": 20,
+    "questioncategory": "Funny",
+    "option1": "Be able to teleport but only to places you've never heard of",
+    "option2": "Be able to read minds but only of people who are thinking about socks"
+  },
+  {
+    "questionid": 21,
+    "questioncategory": "Funny",
+    "option1": "Have to sleep standing up",
+    "option2": "Have to eat all your meals while balancing on one foot"
+  },
+  {
+    "questionid": 22,
+    "questioncategory": "Funny",
+    "option1": "Your laughter sounds like a dying cat",
+    "option2": "Your sneezes sound like a foghorn"
+  },
+  {
+    "questionid": 23,
+    "questioncategory": "Funny",
+    "option1": "Have everything you draw come to life but only for 30 seconds",
+    "option2": "Be able to summon a flock of rubber ducks on demand"
+  },
+  {
+    "questionid": 24,
+    "questioncategory": "Funny",
+    "option1": "Have to wear a swimsuit to every formal event",
+    "option2": "Have to wear a winter coat in the summer"
+  },
+  {
+    "questionid": 25,
+    "questioncategory": "Funny",
+    "option1": "Be perpetually sticky",
+    "option2": "Be perpetually itchy"
+  },
+  {
+    "questionid": 26,
+    "questioncategory": "Funny",
+    "option1": "Have your name sung by a choir every time you enter a room",
+    "option2": "Have a dramatic drumroll precede your every action"
+  },
+  {
+    "questionid": 27,
+    "questioncategory": "Funny",
+    "option1": "Have to solve a riddle before opening any door",
+    "option2": "Have to do a silly dance before using any elevator"
+  },
+  {
+    "questionid": 28,
+    "questioncategory": "Funny",
+    "option1": "Be followed everywhere by a single, confused duck",
+    "option2": "Have a tiny, invisible orchestra play suspenseful music when you open your fridge"
+  },
+  {
+    "questionid": 29,
+    "questioncategory": "Funny",
+    "option1": "Your farts smell like roses",
+    "option2": "Your burps sound like opera"
+  },
+  {
+    "questionid": 30,
+    "questioncategory": "Funny",
+    "option1": "Only be able to eat food that is purple",
+    "option2": "Only be able to drink beverages that are carbonated"
+  },
+  {
+    "questionid": 31,
+    "questioncategory": "Food",
+    "option1": "Eat pizza for every meal for the rest of your life",
+    "option2": "Never eat pizza again"
+  },
+  {
+    "questionid": 32,
+    "questioncategory": "Food",
+    "option1": "Only eat sweet foods",
+    "option2": "Only eat savory foods"
+  },
+  {
+    "questionid": 33,
+    "questioncategory": "Food",
+    "option1": "Have an endless supply of your favorite food",
+    "option2": "Be able to cook any dish perfectly on the first try"
+  },
+  {
+    "questionid": 34,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat cold food",
+    "option2": "Only be able to eat hot food"
+  },
+  {
+    "questionid": 35,
+    "questioncategory": "Food",
+    "option1": "Every meal you eat tastes like your favorite meal",
+    "option2": "Every meal you eat is a surprise and sometimes it's amazing, sometimes terrible"
+  },
+  {
+    "questionid": 36,
+    "questioncategory": "Food",
+    "option1": "Never be able to eat dessert again",
+    "option2": "Never be able to eat your favorite savory dish again"
+  },
+  {
+    "questionid": 37,
+    "questioncategory": "Food",
+    "option1": "Have to eat all your meals with chopsticks",
+    "option2": "Have to eat all your meals with a tiny spoon"
+  },
+  {
+    "questionid": 38,
+    "questioncategory": "Food",
+    "option1": "Only drink water for the rest of your life",
+    "option2": "Only drink soda for the rest of your life"
+  },
+  {
+    "questionid": 39,
+    "questioncategory": "Food",
+    "option1": "Be a world-renowned chef but only cook for yourself",
+    "option2": "Be an average cook but have everyone praise your cooking"
+  },
+  {
+    "questionid": 40,
+    "questioncategory": "Food",
+    "option1": "Only eat organic food",
+    "option2": "Only eat fast food"
+  },
+  {
+    "questionid": 41,
+    "questioncategory": "Food",
+    "option1": "Have to forage for all your food",
+    "option2": "Have to grow all your food"
+  },
+  {
+    "questionid": 42,
+    "questioncategory": "Food",
+    "option1": "Every restaurant you go to is Michelin star quality but you can only order water",
+    "option2": "Every restaurant you go to is a greasy spoon but you can order anything you want"
+  },
+  {
+    "questionid": 43,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat food that is one color",
+    "option2": "Only be able to eat food that is a liquid"
+  },
+  {
+    "questionid": 44,
+    "questioncategory": "Food",
+    "option1": "Have to eat insects for every snack",
+    "option2": "Have to drink a glass of pickle juice every morning"
+  },
+  {
+    "questionid": 45,
+    "questioncategory": "Food",
+    "option1": "Be able to eat anything without gaining weight",
+    "option2": "Be able to eat anything without getting sick"
+  },
+  {
+    "questionid": 46,
+    "questioncategory": "Food",
+    "option1": "Have a personal chef who only cooks what they want",
+    "option2": "Have to cook all your own meals but they turn out perfectly every time"
+  },
+  {
+    "questionid": 47,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat food that is deep-fried",
+    "option2": "Only be able to eat food that is steamed"
+  },
+  {
+    "questionid": 48,
+    "questioncategory": "Food",
+    "option1": "Have to go on a new diet every month",
+    "option2": "Have to eat the same meal every day for a year"
+  },
+  {
+    "questionid": 49,
+    "questioncategory": "Food",
+    "option1": "Be able to smell food from a mile away",
+    "option2": "Be able to taste food by looking at it"
+  },
+  {
+    "questionid": 50,
+    "questioncategory": "Food",
+    "option1": "Never have to do dishes again",
+    "option2": "Never have to grocery shop again"
+  },
+  {
+    "questionid": 51,
+    "questioncategory": "Food",
+    "option1": "All your food is pre-digested",
+    "option2": "All your food has to be eaten with your hands"
+  },
+  {
+    "questionid": 52,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat food from one cuisine",
+    "option2": "Only be able to eat food prepared by yourself"
+  },
+  {
+    "questionid": 53,
+    "questioncategory": "Food",
+    "option1": "Have an endless supply of free gourmet coffee",
+    "option2": "Have an endless supply of free artisanal ice cream"
+  },
+  {
+    "questionid": 54,
+    "questioncategory": "Food",
+    "option1": "Be able to make a perfectly ripe avocado appear on demand",
+    "option2": "Be able to make a perfectly cooked steak appear on demand"
+  },
+  {
+    "questionid": 55,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat vegetarian food",
+    "option2": "Only be able to eat meat"
+  },
+  {
+    "questionid": 56,
+    "questioncategory": "Food",
+    "option1": "Have to eat your least favorite food every day for a week",
+    "option2": "Never be able to eat your favorite food again"
+  },
+  {
+    "questionid": 57,
+    "questioncategory": "Food",
+    "option1": "Have all your food instantly appear cooked and ready to eat",
+    "option2": "Have all your food be grown in your backyard"
+  },
+  {
+    "questionid": 58,
+    "questioncategory": "Food",
+    "option1": "Only eat food that is crunchy",
+    "option2": "Only eat food that is soft"
+  },
+  {
+    "questionid": 59,
+    "questioncategory": "Food",
+    "option1": "Be able to make any food you touch taste exactly how you want it",
+    "option2": "Be able to make any food you touch instantly disappear"
+  },
+  {
+    "questionid": 60,
+    "questioncategory": "Food",
+    "option1": "Only be able to eat breakfast foods",
+    "option2": "Only be able to eat dinner foods"
+  },
+  {
+    "questionid": 61,
+    "questioncategory": "Travel",
+    "option1": "Travel the world for free but always alone",
+    "option2": "Travel to one dream destination with all your friends and family"
+  },
+  {
+    "questionid": 62,
+    "questioncategory": "Travel",
+    "option1": "Explore outer space",
+    "option2": "Explore the deepest parts of the ocean"
+  },
+  {
+    "questionid": 63,
+    "questioncategory": "Travel",
+    "option1": "Have unlimited first-class flights anywhere in the world",
+    "option2": "Have an unlimited budget for luxury accommodations anywhere in the world"
+  },
+  {
+    "questionid": 64,
+    "questioncategory": "Travel",
+    "option1": "Go on an adventure to an unknown land with no map",
+    "option2": "Go on a perfectly planned and organized trip to a familiar place"
+  },
+  {
+    "questionid": 65,
+    "questioncategory": "Travel",
+    "option1": "Live in a different country every year",
+    "option2": "Live in your dream city forever"
+  },
+  {
+    "questionid": 66,
+    "questioncategory": "Travel",
+    "option1": "Travel back in time to witness historical events",
+    "option2": "Travel to the future to see what life is like"
+  },
+  {
+    "questionid": 67,
+    "questioncategory": "Travel",
+    "option1": "Always have the best weather on your travels",
+    "option2": "Always get the best deals on flights and hotels"
+  },
+  {
+    "questionid": 68,
+    "questioncategory": "Travel",
+    "option1": "Go on a year-long road trip across your home country",
+    "option2": "Go on a month-long backpacking trip across Europe"
+  },
+  {
+    "questionid": 69,
+    "questioncategory": "Travel",
+    "option1": "Experience every culture in the world for a day",
+    "option2": "Master one foreign language and live in that country for a year"
+  },
+  {
+    "questionid": 70,
+    "questioncategory": "Travel",
+    "option1": "Travel only by boat",
+    "option2": "Travel only by train"
+  },
+  {
+    "questionid": 71,
+    "questioncategory": "Travel",
+    "option1": "Be able to teleport anywhere you've been before",
+    "option2": "Be able to teleport to any place you can see on a map"
+  },
+  {
+    "questionid": 72,
+    "questioncategory": "Travel",
+    "option1": "Always lose your luggage but it always reappears at your final destination",
+    "option2": "Never lose your luggage but always have significant flight delays"
+  },
+  {
+    "questionid": 73,
+    "questioncategory": "Travel",
+    "option1": "Visit every national park in your country",
+    "option2": "Visit every major city in the world"
+  },
+  {
+    "questionid": 74,
+    "questioncategory": "Travel",
+    "option1": "Go on a luxury safari",
+    "option2": "Go on a rugged mountain expedition"
+  },
+  {
+    "questionid": 75,
+    "questioncategory": "Travel",
+    "option1": "Have a personal tour guide for every trip",
+    "option2": "Be able to instantly understand and speak the local language wherever you go"
+  },
+  {
+    "questionid": 76,
+    "questioncategory": "Travel",
+    "option1": "Travel only during peak season but get amazing deals",
+    "option2": "Travel only during off-peak season but pay full price"
+  },
+  {
+    "questionid": 77,
+    "questioncategory": "Travel",
+    "option1": "Experience all four seasons in one day during your travels",
+    "option2": "Experience perpetual sunshine on all your travels"
+  },
+  {
+    "questionid": 78,
+    "questioncategory": "Travel",
+    "option1": "Have your dream vacation planned and paid for every year by a stranger",
+    "option2": "Be able to plan and pay for your own dream vacation whenever you want"
+  },
+  {
+    "questionid": 79,
+    "questioncategory": "Travel",
+    "option1": "Only be able to stay in hostels",
+    "option2": "Only be able to stay in 5-star hotels"
+  },
+  {
+    "questionid": 80,
+    "questioncategory": "Travel",
+    "option1": "Go on a cruise around the world",
+    "option2": "Go on a backpacking trip across a continent"
+  },
+  {
+    "questionid": 81,
+    "questioncategory": "Travel",
+    "option1": "Be able to fly anywhere you want but only for 10 minutes at a time",
+    "option2": "Be able to walk anywhere you want instantly but only within a 5-mile radius"
+  },
+  {
+    "questionid": 82,
+    "questioncategory": "Travel",
+    "option1": "Have a travel buddy who only talks about their ex",
+    "option2": "Have a travel buddy who constantly gets lost"
+  },
+  {
+    "questionid": 83,
+    "questioncategory": "Travel",
+    "option1": "Visit every wonder of the natural world",
+    "option2": "Visit every man-made wonder of the world"
+  },
+  {
+    "questionid": 84,
+    "questioncategory": "Travel",
+    "option1": "Always have perfect cell service while traveling",
+    "option2": "Always have access to free, reliable Wi-Fi while traveling"
+  },
+  {
+    "questionid": 85,
+    "questioncategory": "Travel",
+    "option1": "Be able to shrink yourself to explore miniature worlds",
+    "option2": "Be able to grow yourself to see things from a giant's perspective"
+  },
+  {
+    "questionid": 86,
+    "questioncategory": "Travel",
+    "option1": "Go on an epic culinary tour around the world",
+    "option2": "Go on an epic historical tour around the world"
+  },
+  {
+    "questionid": 87,
+    "questioncategory": "Travel",
+    "option1": "Always forget your camera on trips but always have amazing memories",
+    "option2": "Always remember your camera but your photos never turn out well"
+  },
+  {
+    "questionid": 88,
+    "questioncategory": "Travel",
+    "option1": "Have an all-expenses-paid trip to a deserted island for a month",
+    "option2": "Have an all-expenses-paid trip to a bustling metropolis for a month"
+  },
+  {
+    "questionid": 89,
+    "questioncategory": "Travel",
+    "option1": "Be able to understand and communicate with animals when traveling",
+    "option2": "Be able to understand and communicate with plants when traveling"
+  },
+  {
+    "questionid": 90,
+    "questioncategory": "Travel",
+    "option1": "Always have perfect weather on your outdoor adventures",
+    "option2": "Always find hidden gems and local favorites on your travels"
+  },
+  {
+    "questionid": 91,
+    "questioncategory": "Relationships",
+    "option1": "Always know exactly what your partner is thinking",
+    "option2": "Always know exactly what your partner is feeling"
+  },
+  {
+    "questionid": 92,
+    "questioncategory": "Relationships",
+    "option1": "Never argue with your partner but have no passion",
+    "option2": "Argue frequently with your partner but have incredible passion"
+  },
+  {
+    "questionid": 93,
+    "questioncategory": "Relationships",
+    "option1": "Have a perfectly harmonious relationship where you always agree",
+    "option2": "Have a relationship with healthy disagreements that lead to growth"
+  },
+  {
+    "questionid": 94,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you are always pursued",
+    "option2": "Be in a relationship where you are always the pursuer"
+  },
+  {
+    "questionid": 95,
+    "questioncategory": "Relationships",
+    "option1": "Have your partner be incredibly attractive but not very smart",
+    "option2": "Have your partner be incredibly smart but not very attractive"
+  },
+  {
+    "questionid": 96,
+    "questioncategory": "Relationships",
+    "option1": "Always celebrate special occasions in a grand way",
+    "option2": "Always have meaningful everyday moments with your partner"
+  },
+  {
+    "questionid": 97,
+    "questioncategory": "Relationships",
+    "option1": "Date someone who is your complete opposite",
+    "option2": "Date someone who is exactly like you"
+  },
+  {
+    "questionid": 98,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who remembers every single detail about you",
+    "option2": "Have a partner who always surprises you with new experiences"
+  },
+  {
+    "questionid": 99,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you both have separate hobbies and rarely do things together",
+    "option2": "Be in a relationship where you do everything together"
+  },
+  {
+    "questionid": 100,
+    "questioncategory": "Relationships",
+    "option1": "Have an incredibly long-lasting relationship with little excitement",
+    "option2": "Have a short, intense, and memorable relationship"
+  },
+  {
+    "questionid": 101,
+    "questioncategory": "Relationships",
+    "option1": "Always be the one who initiates plans in a relationship",
+    "option2": "Always be the one who gets surprised with plans in a relationship"
+  },
+  {
+    "questionid": 102,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is terrible at gift-giving but always expresses love verbally",
+    "option2": "Have a partner who is excellent at gift-giving but rarely expresses love verbally"
+  },
+  {
+    "questionid": 103,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you never have to compromise",
+    "option2": "Be in a relationship where compromise is constant but always leads to better outcomes"
+  },
+  {
+    "questionid": 104,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who loves to travel but hates staying home",
+    "option2": "Have a partner who loves staying home but hates to travel"
+  },
+  {
+    "questionid": 105,
+    "questioncategory": "Relationships",
+    "option1": "Only be able to communicate with your partner through handwritten letters",
+    "option2": "Only be able to communicate with your partner through emojis"
+  },
+  {
+    "questionid": 106,
+    "questioncategory": "Relationships",
+    "option1": "Have a relationship that everyone envies but is secretly unhappy",
+    "option2": "Have a relationship that no one understands but is deeply fulfilling"
+  },
+  {
+    "questionid": 107,
+    "questioncategory": "Relationships",
+    "option1": "Always be the listener in your relationship",
+    "option2": "Always be the talker in your relationship"
+  },
+  {
+    "questionid": 108,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is a great cook but messy",
+    "option2": "Have a partner who is a terrible cook but neat"
+  },
+  {
+    "questionid": 109,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you both work from home together",
+    "option2": "Be in a relationship where you both work in different cities and only see each other on weekends"
+  },
+  {
+    "questionid": 110,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is always brutally honest",
+    "option2": "Have a partner who always tells you what you want to hear"
+  },
+  {
+    "questionid": 111,
+    "questioncategory": "Relationships",
+    "option1": "Fall in love at first sight but it slowly fades over time",
+    "option2": "Slowly fall in love but it grows stronger with each passing year"
+  },
+  {
+    "questionid": 112,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is an early bird and you're a night owl",
+    "option2": "Have a partner who is a night owl and you're an early bird"
+  },
+  {
+    "questionid": 113,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you share everything",
+    "option2": "Be in a relationship where you have strong personal boundaries"
+  },
+  {
+    "questionid": 114,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is incredibly messy but always happy",
+    "option2": "Have a partner who is incredibly neat but always stressed"
+  },
+  {
+    "questionid": 115,
+    "questioncategory": "Relationships",
+    "option1": "Have a relationship with constant grand romantic gestures",
+    "option2": "Have a relationship built on quiet, consistent acts of service"
+  },
+  {
+    "questionid": 116,
+    "questioncategory": "Relationships",
+    "option1": "Your partner always gets you exactly what you want for gifts",
+    "option2": "Your partner always gives you thoughtful, handmade gifts"
+  },
+  {
+    "questionid": 117,
+    "questioncategory": "Relationships",
+    "option1": "Be in a long-distance relationship that works out",
+    "option2": "Be in a short-distance relationship that falls apart"
+  },
+  {
+    "questionid": 118,
+    "questioncategory": "Relationships",
+    "option1": "Have a partner who is a homebody and you're an adventurer",
+    "option2": "Have a partner who is an adventurer and you're a homebody"
+  },
+  {
+    "questionid": 119,
+    "questioncategory": "Relationships",
+    "option1": "Be in a relationship where you both finish each other's sentences",
+    "option2": "Be in a relationship where you both have vastly different opinions on everything"
+  },
+  {
+    "questionid": 120,
+    "questioncategory": "Relationships",
+    "option1": "Have a perfect first date but no second date",
+    "option2": "Have a terrible first date but it leads to a long, happy relationship"
+  },
+  {
+    "questionid": 121,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to fly but only at running speed",
+    "option2": "Be able to turn invisible but only when no one is looking"
+  },
+  {
+    "questionid": 122,
+    "questioncategory": "Superpowers",
+    "option1": "Have super strength but only when you're afraid",
+    "option2": "Have super speed but only when you're walking backwards"
+  },
+  {
+    "questionid": 123,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to read minds but hear everyone's thoughts constantly",
+    "option2": "Be able to teleport but only to places you've seen in person"
+  },
+  {
+    "questionid": 124,
+    "questioncategory": "Superpowers",
+    "option1": "Control the weather but only within a 1-foot radius around you",
+    "option2": "Talk to animals but they only tell you their dreams"
+  },
+  {
+    "questionid": 125,
+    "questioncategory": "Superpowers",
+    "option1": "Have the ability to instantly learn any skill but forget it after 24 hours",
+    "option2": "Have the ability to master one skill perfectly for life"
+  },
+  {
+    "questionid": 126,
+    "questioncategory": "Superpowers",
+    "option1": "Be immortal but never age past your current age",
+    "option2": "Be immortal but constantly age and deteriorate"
+  },
+  {
+    "questionid": 127,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power to heal others but you feel their pain",
+    "option2": "Have the power to absorb others' pain but you can't heal them"
+  },
+  {
+    "questionid": 128,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to communicate with ghosts but they only tell bad jokes",
+    "option2": "Be able to see the future but only 5 minutes in advance"
+  },
+  {
+    "questionid": 129,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power of persuasion but only on inanimate objects",
+    "option2": "Have the power of levitation but only on things lighter than a feather"
+  },
+  {
+    "questionid": 130,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to breathe underwater but only in a puddle",
+    "option2": "Be able to walk through walls but only if they're made of paper"
+  },
+  {
+    "questionid": 131,
+    "questioncategory": "Superpowers",
+    "option1": "Have X-ray vision but only through thin clothing",
+    "option2": "Have super hearing but only when someone whispers your name"
+  },
+  {
+    "questionid": 132,
+    "questioncategory": "Superpowers",
+    "option1": "Control fire but only enough to light a candle",
+    "option2": "Control water but only enough to fill a teacup"
+  },
+  {
+    "questionid": 133,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to duplicate yourself but your clones are always grumpy",
+    "option2": "Be able to shrink things but they explode after 10 minutes"
+  },
+  {
+    "questionid": 134,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power to never need sleep but always feel tired",
+    "option2": "Have the power to never need food but always feel hungry"
+  },
+  {
+    "questionid": 135,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to manipulate time but only to slow down commercials",
+    "option2": "Be able to manipulate gravity but only to make socks float"
+  },
+  {
+    "questionid": 136,
+    "questioncategory": "Superpowers",
+    "option1": "Have a photographic memory but only for things you don't care about",
+    "option2": "Be able to forget anything on command but it comes back as a song"
+  },
+  {
+    "questionid": 137,
+    "questioncategory": "Superpowers",
+    "option1": "Have premonitions that are always wrong",
+    "option2": "Have an inner monologue that narrates your life in a terrible accent"
+  },
+  {
+    "questionid": 138,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to understand all languages but only when spoken backward",
+    "option2": "Be able to speak all languages but only in a squeaky voice"
+  },
+  {
+    "questionid": 139,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power to turn invisible but you smell like rotten eggs when you do",
+    "option2": "Have the power to fly but you shed glitter everywhere"
+  },
+  {
+    "questionid": 140,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to control dreams but only your own",
+    "option2": "Be able to enter people's dreams but you're a cartoon character"
+  },
+  {
+    "questionid": 141,
+    "questioncategory": "Superpowers",
+    "option1": "Have an incredible sense of smell but everything smells faintly of cheese",
+    "option2": "Have an incredible sense of taste but everything tastes faintly of cardboard"
+  },
+  {
+    "questionid": 142,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to shrink yourself but you can't grow back",
+    "option2": "Be able to grow yourself but you can't shrink back"
+  },
+  {
+    "questionid": 143,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power to make anyone laugh but you can't laugh yourself",
+    "option2": "Have the power to make anyone cry but you cry with them"
+  },
+  {
+    "questionid": 144,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to stop time but only for one second a day",
+    "option2": "Be able to rewind time but only by five seconds once a day"
+  },
+  {
+    "questionid": 145,
+    "questioncategory": "Superpowers",
+    "option1": "Have super dexterity but always trip over your own feet",
+    "option2": "Have perfect balance but your hands are always shaky"
+  },
+  {
+    "questionid": 146,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to generate electricity but only enough to power a single light bulb",
+    "option2": "Be able to control magnetism but only on paperclips"
+  },
+  {
+    "questionid": 147,
+    "questioncategory": "Superpowers",
+    "option1": "Have superhuman hearing but only when someone is chewing loudly",
+    "option2": "Have superhuman vision but only in pitch black darkness"
+  },
+  {
+    "questionid": 148,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to control plants but they only grow weeds",
+    "option2": "Be able to control insects but they only follow very simple commands"
+  },
+  {
+    "questionid": 149,
+    "questioncategory": "Superpowers",
+    "option1": "Have the power to summon any object but it's always slightly broken",
+    "option2": "Have the power to banish any object but it reappears in your closet"
+  },
+  {
+    "questionid": 150,
+    "questioncategory": "Superpowers",
+    "option1": "Be able to walk through walls but you get stuck for an hour if you hesitate",
+    "option2": "Be able to fly but you constantly attract birds to your head"
+  },
+  {
+    "questionid": 151,
+    "questioncategory": "Lifestyle",
+    "option1": "Live in a tiny house in a beautiful natural setting",
+    "option2": "Live in a huge mansion in a bustling city"
+  },
+  {
+    "questionid": 152,
+    "questioncategory": "Lifestyle",
+    "option1": "Work a job you love but are barely paid enough to live",
+    "option2": "Work a job you hate but are incredibly well paid"
+  },
+  {
+    "questionid": 153,
+    "questioncategory": "Lifestyle",
+    "option1": "Have an endless supply of free time but no money to spend",
+    "option2": "Have unlimited money but no free time to enjoy it"
+  },
+  {
+    "questionid": 154,
+    "questioncategory": "Lifestyle",
+    "option1": "Always be perfectly organized",
+    "option2": "Always be perfectly spontaneous"
+  },
+  {
+    "questionid": 155,
+    "questioncategory": "Lifestyle",
+    "option1": "Live without the internet for the rest of your life",
+    "option2": "Live without a cell phone for the rest of your life"
+  },
+  {
+    "questionid": 156,
+    "questioncategory": "Lifestyle",
+    "option1": "Be able to eat whatever you want without gaining weight",
+    "option2": "Be able to sleep perfectly every night for as long as you want"
+  },
+  {
+    "questionid": 157,
+    "questioncategory": "Lifestyle",
+    "option1": "Have a personal chef",
+    "option2": "Have a personal masseuse"
+  },
+  {
+    "questionid": 158,
+    "questioncategory": "Lifestyle",
+    "option1": "Always wake up feeling refreshed, no matter how much you slept",
+    "option2": "Never get sick again"
+  },
+  {
+    "questionid": 159,
+    "questioncategory": "Lifestyle",
+    "option1": "Live a quiet, peaceful life in the countryside",
+    "option2": "Live an exciting, fast-paced life in the city"
+  },
+  {
+    "questionid": 160,
+    "questioncategory": "Lifestyle",
+    "option1": "Be able to buy anything you want but only for others",
+    "option2": "Be able to receive anything you want as a gift but never buy anything for yourself"
+  },
+  {
+    "questionid": 161,
+    "questioncategory": "Lifestyle",
+    "option1": "Always be perfectly on time for everything",
+    "option2": "Always be fashionably late for everything"
+  },
+  {
+    "questionid": 162,
+    "questioncategory": "Lifestyle",
+    "option1": "Have an unlimited wardrobe of designer clothes",
+    "option2": "Have an unlimited supply of your favorite books and movies"
+  },
+  {
+    "questionid": 163,
+    "questioncategory": "Lifestyle",
+    "option1": "Spend all your free time pursuing a creative hobby",
+    "option2": "Spend all your free time exercising and staying fit"
+  },
+  {
+    "questionid": 164,
+    "questioncategory": "Lifestyle",
+    "option1": "Never have to clean your house again",
+    "option2": "Never have to do laundry again"
+  },
+  {
+    "questionid": 165,
+    "questioncategory": "Lifestyle",
+    "option1": "Be able to understand and speak every language fluently",
+    "option2": "Be a master of every musical instrument"
+  },
+  {
+    "questionid": 166,
+    "questioncategory": "Lifestyle",
+    "option1": "Live a life of luxury and comfort but never experience true happiness",
+    "option2": "Live a life of hardship but be truly happy"
+  },
+  {
+    "questionid": 167,
+    "questioncategory": "Lifestyle",
+    "option1": "Have a perfect memory for everything you learn",
+    "option2": "Be able to instantly forget anything you want"
+  },
+  {
+    "questionid": 168,
+    "questioncategory": "Lifestyle",
+    "option1": "Be a morning person",
+    "option2": "Be a night owl"
+  },
+  {
+    "questionid": 169,
+    "questioncategory": "Lifestyle",
+    "option1": "Own a successful business but work constantly",
+    "option2": "Have a simple job with lots of free time"
+  },
+  {
+    "questionid": 170,
+    "questioncategory": "Lifestyle",
+    "option1": "Always have perfect hair",
+    "option2": "Always have perfect skin"
+  },
+  {
+    "questionid": 171,
+    "questioncategory": "Lifestyle",
+    "option1": "Live in a world where everyone always tells the truth",
+    "option2": "Live in a world where everyone can read minds"
+  },
+  {
+    "questionid": 172,
+    "questioncategory": "Lifestyle",
+    "option1": "Be able to nap anywhere, anytime, perfectly",
+    "option2": "Be able to wake up without an alarm clock and feel fully rested"
+  },
+  {
+    "questionid": 173,
+    "questioncategory": "Lifestyle",
+    "option1": "Have a life full of grand adventures and risks",
+    "option2": "Have a life of peace, security, and predictability"
+  },
+  {
+    "questionid": 174,
+    "questioncategory": "Lifestyle",
+    "option1": "Be known for your intelligence",
+    "option2": "Be known for your kindness"
+  },
+  {
+    "questionid": 175,
+    "questioncategory": "Lifestyle",
+    "option1": "Always have the perfect temperature in your home",
+    "option2": "Always have the perfect water pressure in your shower"
+  },
+  {
+    "questionid": 176,
+    "questioncategory": "Lifestyle",
+    "option1": "Be able to travel anywhere for free but always in economy class",
+    "option2": "Only travel first class but have to pay for everything yourself"
+  },
+  {
+    "questionid": 177,
+    "questioncategory": "Lifestyle",
+    "option1": "Be excellent at public speaking",
+    "option2": "Be excellent at writing"
+  },
+  {
+    "questionid": 178,
+    "questioncategory": "Lifestyle",
+    "option1": "Live in a world where you never have to work for money",
+    "option2": "Live in a world where you never have to worry about your health"
+  },
+  {
+    "questionid": 179,
+    "questioncategory": "Lifestyle",
+    "option1": "Always have perfect vision",
+    "option2": "Always have perfect hearing"
+  },
+  {
+    "questionid": 180,
+    "questioncategory": "Lifestyle",
+    "option1": "Have a pet that can talk but only tells embarrassing stories about you",
+    "option2": "Have a pet that can grant wishes but only silly ones"
+  },
+  {
+    "questionid": 181,
+    "questioncategory": "Tech",
+    "option1": "Have a phone with infinite battery life but terrible camera",
+    "option2": "Have a phone with amazing camera but battery lasts 1 hour"
+  },
+  {
+    "questionid": 182,
+    "questioncategory": "Tech",
+    "option1": "Be able to fix any broken piece of technology instantly",
+    "option2": "Be able to invent any piece of technology you can imagine"
+  },
+  {
+    "questionid": 183,
+    "questioncategory": "Tech",
+    "option1": "Live in a fully automated smart home that sometimes malfunctions spectacularly",
+    "option2": "Live in a completely tech-free home but everything is always perfectly maintained by hand"
+  },
+  {
+    "questionid": 184,
+    "questioncategory": "Tech",
+    "option1": "Have an AI assistant that anticipates your every need perfectly",
+    "option2": "Have an AI assistant that constantly tells you interesting but useless facts"
+  },
+  {
+    "questionid": 185,
+    "questioncategory": "Tech",
+    "option1": "Have super fast internet everywhere you go but only on your phone",
+    "option2": "Have super fast internet only at home but on all devices"
+  },
+  {
+    "questionid": 186,
+    "questioncategory": "Tech",
+    "option1": "Never have to update any software ever again",
+    "option2": "Never have to deal with pop-up ads again"
+  },
+  {
+    "questionid": 187,
+    "questioncategory": "Tech",
+    "option1": "Be able to download any skill or knowledge directly into your brain",
+    "option2": "Be able to upload your memories and experiences for others to feel"
+  },
+  {
+    "questionid": 188,
+    "questioncategory": "Tech",
+    "option1": "Have a self-driving car that talks back and has a strong opinion",
+    "option2": "Have a personal robot butler that is always a bit clumsy"
+  },
+  {
+    "questionid": 189,
+    "questioncategory": "Tech",
+    "option1": "Have an unlimited supply of the latest gaming consoles and games",
+    "option2": "Have an unlimited supply of vintage electronics and classic arcade games"
+  },
+  {
+    "questionid": 190,
+    "questioncategory": "Tech",
+    "option1": "Live in a world where virtual reality is indistinguishable from reality",
+    "option2": "Live in a world where augmented reality enhances everything you see"
+  },
+  {
+    "questionid": 191,
+    "questioncategory": "Tech",
+    "option1": "Always have the latest smartphone for free every year",
+    "option2": "Always have access to cutting-edge medical technology for free"
+  },
+  {
+    "questionid": 192,
+    "questioncategory": "Tech",
+    "option1": "Be able to control all your devices with your mind",
+    "option2": "Be able to create any digital art or music perfectly with your thoughts"
+  },
+  {
+    "questionid": 193,
+    "questioncategory": "Tech",
+    "option1": "Have a universal remote that controls everything, including people's emotions",
+    "option2": "Have a time machine that only goes forward by 10 seconds at a time"
+  },
+  {
+    "questionid": 194,
+    "questioncategory": "Tech",
+    "option1": "Your computer always runs at lightning speed but only for work tasks",
+    "option2": "Your computer is slow but perfect for entertainment"
+  },
+  {
+    "questionid": 195,
+    "questioncategory": "Tech",
+    "option1": "Have a personal drone that follows you and records everything",
+    "option2": "Have smart glasses that show you real-time information about everyone you meet"
+  },
+  {
+    "questionid": 196,
+    "questioncategory": "Tech",
+    "option1": "Never have to charge any of your wireless devices again",
+    "option2": "Never have to deal with bad Wi-Fi signals again"
+  },
+  {
+    "questionid": 197,
+    "questioncategory": "Tech",
+    "option1": "Be able to program any code perfectly on the first try",
+    "option2": "Be able to instantly debug any existing code"
+  },
+  {
+    "questionid": 198,
+    "questioncategory": "Tech",
+    "option1": "Have every smart home device imaginable but they constantly argue with each other",
+    "option2": "Have no smart home devices but a perfectly functioning, never-breaking analog home"
+  },
+  {
+    "questionid": 199,
+    "questioncategory": "Tech",
+    "option1": "Be able to perfectly mimic any voice you hear through a speaker",
+    "option2": "Be able to perfectly recreate any song you hear on a computer"
+  },
+  {
+    "questionid": 200,
+    "questioncategory": "Tech",
+    "option1": "Have a mind-reading device that only works on computers",
+    "option2": "Have a device that can predict future tech trends with 100% accuracy"
+  },
+  {
+    "questionid": 201,
+    "questioncategory": "Tech",
+    "option1": "Always have access to the latest and greatest AI models",
+    "option2": "Always have access to the most secure and private technology"
+  },
+  {
+    "questionid": 202,
+    "questioncategory": "Tech",
+    "option1": "Your car can fly but only 10 feet off the ground",
+    "option2": "Your car can drive itself but only on dirt roads"
+  },
+  {
+    "questionid": 203,
+    "questioncategory": "Tech",
+    "option1": "Have a robotic arm that is incredibly strong but constantly makes noise",
+    "option2": "Have a robotic leg that is incredibly fast but occasionally trips you"
+  },
+  {
+    "questionid": 204,
+    "questioncategory": "Tech",
+    "option1": "Be able to upload your consciousness to a perfect virtual world",
+    "option2": "Be able to live forever in your current physical body"
+  },
+  {
+    "questionid": 205,
+    "questioncategory": "Tech",
+    "option1": "Have a device that can translate any animal sound into human speech",
+    "option2": "Have a device that can translate any human speech into animal sounds"
+  },
+  {
+    "questionid": 206,
+    "questioncategory": "Tech",
+    "option1": "All your devices are touch-screen only",
+    "option2": "All your devices are voice-controlled only"
+  },
+  {
+    "questionid": 207,
+    "questioncategory": "Tech",
+    "option1": "Have an invisibility cloak that only works for electronics",
+    "option2": "Have a device that makes all your electronic notifications silent"
+  },
+  {
+    "questionid": 208,
+    "questioncategory": "Tech",
+    "option1": "Be able to conjure any app onto your phone at will",
+    "option2": "Be able to perfectly design any app you can imagine"
+  },
+  {
+    "questionid": 209,
+    "questioncategory": "Tech",
+    "option1": "Your smart home automatically orders groceries but often gets the wrong items",
+    "option2": "You have to manually order groceries but they are always perfect"
+  },
+  {
+    "questionid": 210,
+    "questioncategory": "Tech",
+    "option1": "Have a holographic projection system in your home for entertainment",
+    "option2": "Have a quantum computer that can solve any problem but only in a foreign language"
+  },
+  {
+    "questionid": 211,
+    "questioncategory": "Random",
+    "option1": "Fight a horse-sized duck",
+    "option2": "Fight 100 duck-sized horses"
+  },
+  {
+    "questionid": 212,
+    "questioncategory": "Random",
+    "option1": "Have everything you wear be 3 sizes too big",
+    "option2": "Have everything you wear be 3 sizes too small"
+  },
+  {
+    "questionid": 213,
+    "questioncategory": "Random",
+    "option1": "Be able to talk to plants but they only whisper conspiracy theories",
+    "option2": "Be able to talk to inanimate objects but they only complain about their existence"
+  },
+  {
+    "questionid": 214,
+    "questioncategory": "Random",
+    "option1": "Always have a faint, unidentifiable smell follow you around",
+    "option2": "Always have a faint, annoying tune stuck in your head"
+  },
+  {
+    "questionid": 215,
+    "questioncategory": "Random",
+    "option1": "Be able to control time but only to pause your own sneezes",
+    "option2": "Be able to control gravity but only to make your shoelaces untie"
+  },
+  {
+    "questionid": 216,
+    "questioncategory": "Random",
+    "option1": "Have a personal rain cloud that follows you around",
+    "option2": "Have a personal spotlight that shines on you constantly"
+  },
+  {
+    "questionid": 217,
+    "questioncategory": "Random",
+    "option1": "Every time you open your mouth, a random animal sound comes out",
+    "option2": "Every time you close your eyes, you see a random advertisement"
+  },
+  {
+    "questionid": 218,
+    "questioncategory": "Random",
+    "option1": "Have your hands permanently stuck in giant novelty foam fingers",
+    "option2": "Have your feet permanently stuck in roller skates"
+  },
+  {
+    "questionid": 219,
+    "questioncategory": "Random",
+    "option1": "Be able to summon any flavor of ice cream but it's always melted",
+    "option2": "Be able to summon any kind of pizza but it's always cold"
+  },
+  {
+    "questionid": 220,
+    "questioncategory": "Random",
+    "option1": "Have a tiny, invisible audience that laughs at your every mistake",
+    "option2": "Have a tiny, invisible orchestra that plays dramatic music during your everyday life"
+  },
+  {
+    "questionid": 221,
+    "questioncategory": "Random",
+    "option1": "Only be able to dream in black and white",
+    "option2": "Only be able to dream in extreme slow motion"
+  },
+  {
+    "questionid": 222,
+    "questioncategory": "Random",
+    "option1": "Your reflection in mirrors is always 10 seconds behind you",
+    "option2": "Your shadow always tries to trip you"
+  },
+  {
+    "questionid": 223,
+    "questioncategory": "Random",
+    "option1": "Be able to teleport but only into a swimming pool",
+    "option2": "Be able to fly but only when you're upside down"
+  },
+  {
+    "questionid": 224,
+    "questioncategory": "Random",
+    "option1": "Have every object you touch become slightly sticky for an hour",
+    "option2": "Have every object you touch become slightly slippery for an hour"
+  },
+  {
+    "questionid": 225,
+    "questioncategory": "Random",
+    "option1": "Your clothes change to a random pattern every hour",
+    "option2": "Your hair changes to a random color every day"
+  },
+  {
+    "questionid": 226,
+    "questioncategory": "Random",
+    "option1": "Be able to perfectly mimic any sound you hear, but you can't stop doing it",
+    "option2": "Be able to perfectly draw anything you see, but only with your non-dominant hand"
+  },
+  {
+    "questionid": 227,
+    "questioncategory": "Random",
+    "option1": "All your food tastes like chicken, regardless of what it is",
+    "option2": "All your drinks taste like water, regardless of what they are"
+  },
+  {
+    "questionid": 228,
+    "questioncategory": "Random",
+    "option1": "You can only communicate through interpretive dance",
+    "option2": "You can only communicate through interpretive mime"
+  },
+  {
+    "questionid": 229,
+    "questioncategory": "Random",
+    "option1": "Have a rubber duck follow you everywhere and loudly quack",
+    "option2": "Have a small, fluffy cloud constantly float above your head"
+  },
+  {
+    "questionid": 230,
+    "questioncategory": "Random",
+    "option1": "Every time you blink, you teleport 1 inch to the left",
+    "option2": "Every time you sneeze, you teleport 1 foot up"
+  },
+  {
+    "questionid": 231,
+    "questioncategory": "Random",
+    "option1": "Be able to summon any type of cheese but only in extremely large quantities",
+    "option2": "Be able to summon any type of bread but it's always stale"
+  },
+  {
+    "questionid": 232,
+    "questioncategory": "Random",
+    "option1": "Your thoughts appear as speech bubbles above your head for everyone to see",
+    "option2": "Your emotions are always visible as a color-changing aura around you"
+  },
+  {
+    "questionid": 233,
+    "questioncategory": "Random",
+    "option1": "Always have a gentle breeze blowing around you, even indoors",
+    "option2": "Always have soft, ambient music playing wherever you go"
+  },
+  {
+    "questionid": 234,
+    "questioncategory": "Random",
+    "option1": "Be able to understand bird language but they only gossip about humans",
+    "option2": "Be able to understand cat language but they only complain about food"
+  },
+  {
+    "questionid": 235,
+    "questioncategory": "Random",
+    "option1": "Every time you take a step, a tiny bell rings",
+    "option2": "Every time you clap, confetti explodes"
+  },
+  {
+    "questionid": 236,
+    "questioncategory": "Random",
+    "option1": "Your eyes change color based on your mood",
+    "option2": "Your voice changes pitch based on your emotions"
+  },
+  {
+    "questionid": 237,
+    "questioncategory": "Random",
+    "option1": "Have an imaginary friend that is always present and audible to you",
+    "option2": "Have a pet rock that can communicate with you telepathically"
+  },
+  {
+    "questionid": 238,
+    "questioncategory": "Random",
+    "option1": "Only be able to write using a quill and ink",
+    "option2": "Only be able to read books printed in a language you don't understand"
+  },
+  {
+    "questionid": 239,
+    "questioncategory": "Random",
+    "option1": "Your laughter sounds like a honking goose",
+    "option2": "Your sneezes sound like a trumpet"
+  },
+  {
+    "questionid": 240,
+    "questioncategory": "Random",
+    "option1": "Be able to perfectly juggle anything, but only when standing on one leg",
+    "option2": "Be able to perfectly balance anything on your head, but only while singing opera"
+  },
+  {
+    "questionid": 241,
+    "questioncategory": "Deep",
+    "option1": "Know the exact date and time of your death",
+    "option2": "Know the exact reason for your existence"
+  },
+  {
+    "questionid": 242,
+    "questioncategory": "Deep",
+    "option1": "Live a short, impactful life that changes the world",
+    "option2": "Live a long, peaceful life with no significant impact"
+  },
+  {
+    "questionid": 243,
+    "questioncategory": "Deep",
+    "option1": "Be loved by everyone but never truly love anyone back",
+    "option2": "Love someone deeply but never be loved in return"
+  },
+  {
+    "questionid": 244,
+    "questioncategory": "Deep",
+    "option1": "Have all your regrets erased from your memory",
+    "option2": "Be able to change one past decision, knowing all future consequences"
+  },
+  {
+    "questionid": 245,
+    "questioncategory": "Deep",
+    "option1": "Always speak your mind, no matter the consequences",
+    "option2": "Always say what people want to hear to maintain harmony"
+  },
+  {
+    "questionid": 246,
+    "questioncategory": "Deep",
+    "option1": "Achieve all your dreams but lose your closest relationships",
+    "option2": "Maintain all your closest relationships but never achieve your biggest dreams"
+  },
+  {
+    "questionid": 247,
+    "questioncategory": "Deep",
+    "option1": "Know the answers to all unsolved mysteries",
+    "option2": "Be able to bring peace to one ongoing conflict"
+  },
+  {
+    "questionid": 248,
+    "questioncategory": "Deep",
+    "option1": "Live in a world where everyone is inherently good",
+    "option2": "Live in a world where everyone is inherently honest"
+  },
+  {
+    "questionid": 249,
+    "questioncategory": "Deep",
+    "option1": "Have true understanding of the universe but be unable to share it",
+    "option2": "Be able to share a limited understanding of the universe to many, but never fully grasp it yourself"
+  },
+  {
+    "questionid": 250,
+    "questioncategory": "Deep",
+    "option1": "Be remembered for your accomplishments",
+    "option2": "Be remembered for your character"
+  },
+  {
+    "questionid": 251,
+    "questioncategory": "Deep",
+    "option1": "Experience true joy only once in your life but it lasts forever",
+    "option2": "Experience consistent moderate happiness throughout your life"
+  },
+  {
+    "questionid": 252,
+    "questioncategory": "Deep",
+    "option1": "Know what everyone truly thinks of you",
+    "option2": "Know what everyone truly needs from you"
+  },
+  {
+    "questionid": 253,
+    "questioncategory": "Deep",
+    "option1": "Be able to forgive everyone who has wronged you",
+    "option2": "Be able to instantly receive forgiveness for all your wrongdoings"
+  },
+  {
+    "questionid": 254,
+    "questioncategory": "Deep",
+    "option1": "Live a life without pain or suffering but also without intense joy",
+    "option2": "Live a life with both intense joy and deep suffering"
+  },
+  {
+    "questionid": 255,
+    "questioncategory": "Deep",
+    "option1": "Have perfect empathy for everyone",
+    "option2": "Have perfect logic and rationality in every decision"
+  },
+  {
+    "questionid": 256,
+    "questioncategory": "Deep",
+    "option1": "Be able to travel to any parallel universe",
+    "option2": "Be able to understand the true nature of reality"
+  },
+  {
+    "questionid": 257,
+    "questioncategory": "Deep",
+    "option1": "Know how the universe ends",
+    "option2": "Know how life began"
+  },
+  {
+    "questionid": 258,
+    "questioncategory": "Deep",
+    "option1": "Always be content with what you have",
+    "option2": "Always be striving for more"
+  },
+  {
+    "questionid": 259,
+    "questioncategory": "Deep",
+    "option1": "Sacrifice your happiness for the greater good of humanity",
+    "option2": "Live a perfectly happy life knowing others are suffering"
+  },
+  {
+    "questionid": 260,
+    "questioncategory": "Deep",
+    "option1": "Be a lone genius who makes groundbreaking discoveries",
+    "option2": "Be part of a team that achieves something incredible together"
+  },
+  {
+    "questionid": 261,
+    "questioncategory": "Deep",
+    "option1": "Have profound wisdom but be unable to articulate it",
+    "option2": "Be an eloquent speaker but lack true wisdom"
+  },
+  {
+    "questionid": 262,
+    "questioncategory": "Deep",
+    "option1": "Always tell the truth, even if it hurts others",
+    "option2": "Always protect others' feelings, even if it means lying"
+  },
+  {
+    "questionid": 263,
+    "questioncategory": "Deep",
+    "option1": "Be remembered as a hero by history, but live a lonely life",
+    "option2": "Live a fulfilling personal life, but be forgotten by history"
+  },
+  {
+    "questionid": 264,
+    "questioncategory": "Deep",
+    "option1": "Have perfect self-knowledge but never understand others",
+    "option2": "Have perfect understanding of others but never truly understand yourself"
+  },
+  {
+    "questionid": 265,
+    "questioncategory": "Deep",
+    "option1": "Live in a simulated reality where everything is perfect",
+    "option2": "Live in the real world with all its imperfections"
+  },
+  {
+    "questionid": 266,
+    "questioncategory": "Deep",
+    "option1": "Be able to erase all negative emotions from your life",
+    "option2": "Be able to experience the full spectrum of human emotions, good and bad"
+  },
+  {
+    "questionid": 267,
+    "questioncategory": "Deep",
+    "option1": "Understand the meaning of all art and music",
+    "option2": "Understand the meaning of all scientific theories and principles"
+  },
+  {
+    "questionid": 268,
+    "questioncategory": "Deep",
+    "option1": "Be able to communicate with the dead",
+    "option2": "Be able to communicate with beings from another galaxy"
+  },
+  {
+    "questionid": 269,
+    "questioncategory": "Deep",
+    "option1": "Live a life of constant intellectual stimulation",
+    "option2": "Live a life of constant emotional fulfillment"
+  },
+  {
+    "questionid": 270,
+    "questioncategory": "Deep",
+    "option1": "Have perfect control over your own emotions",
+    "option2": "Have the ability to influence the emotions of others for good"
+  },
+  {
+    "questionid": 271,
+    "questioncategory": "School",
+    "option1": "Have a teacher who gives no homework but assigns difficult exams",
+    "option2": "Have a teacher who gives a lot of homework but easy exams"
+  },
+  {
+    "questionid": 272,
+    "questioncategory": "School",
+    "option1": "Always get straight A's without trying",
+    "option2": "Learn everything perfectly but struggle to get good grades"
+  },
+  {
+    "questionid": 273,
+    "questioncategory": "School",
+    "option1": "Be the smartest student in a class where everyone is lazy",
+    "option2": "Be the least smart student in a class where everyone is brilliant"
+  },
+  {
+    "questionid": 274,
+    "questioncategory": "School",
+    "option1": "Have a personal tutor for every subject you struggle with",
+    "option2": "Have the ability to instantly understand any concept you read"
+  },
+  {
+    "questionid": 275,
+    "questioncategory": "School",
+    "option1": "Never have to do group projects again",
+    "option2": "Never have to give presentations again"
+  },
+  {
+    "questionid": 276,
+    "questioncategory": "School",
+    "option1": "Go to a school where all your classes are online",
+    "option2": "Go to a school where all your classes are in person but you have a long commute"
+  },
+  {
+    "questionid": 277,
+    "questioncategory": "School",
+    "option1": "Have perfect handwriting",
+    "option2": "Be a super fast typist"
+  },
+  {
+    "questionid": 278,
+    "questioncategory": "School",
+    "option1": "Always finish your assignments early but they are always just 'good enough'",
+    "option2": "Always finish your assignments late but they are always exceptional"
+  },
+  {
+    "questionid": 279,
+    "questioncategory": "School",
+    "option1": "Be able to ace any test without studying",
+    "option2": "Be able to write a perfect essay on any topic without research"
+  },
+  {
+    "questionid": 280,
+    "questioncategory": "School",
+    "option1": "Have a school uniform that is super comfortable but looks ridiculous",
+    "option2": "Have no school uniform but everyone judges your clothes"
+  },
+  {
+    "questionid": 281,
+    "questioncategory": "School",
+    "option1": "Your school serves gourmet food every day but only vegetables",
+    "option2": "Your school serves unhealthy but delicious food every day"
+  },
+  {
+    "questionid": 282,
+    "questioncategory": "School",
+    "option1": "Be able to read a textbook and instantly memorize it",
+    "option2": "Be able to understand a lecture perfectly and instantly apply the knowledge"
+  },
+  {
+    "questionid": 283,
+    "questioncategory": "School",
+    "option1": "Never have pop quizzes",
+    "option2": "Never have final exams"
+  },
+  {
+    "questionid": 284,
+    "questioncategory": "School",
+    "option1": "Have a locker that cleans itself",
+    "option2": "Have a backpack that carries itself"
+  },
+  {
+    "questionid": 285,
+    "questioncategory": "School",
+    "option1": "Be able to perfectly mimic any teacher's voice",
+    "option2": "Be able to perfectly forge any teacher's signature"
+  },
+  {
+    "questionid": 286,
+    "questioncategory": "School",
+    "option1": "Go to school only 3 days a week but for longer hours",
+    "option2": "Go to school 5 days a week but for shorter hours"
+  },
+  {
+    "questionid": 287,
+    "questioncategory": "School",
+    "option1": "Have a class where you learn about the future",
+    "option2": "Have a class where you learn about secret history"
+  },
+  {
+    "questionid": 288,
+    "questioncategory": "School",
+    "option1": "Always sit in the front row and be the teacher's favorite",
+    "option2": "Always sit in the back row and be completely anonymous"
+  },
+  {
+    "questionid": 289,
+    "questioncategory": "School",
+    "option1": "Be able to write essays perfectly on any topic with no research",
+    "option2": "Be able to solve any math problem instantly without showing work"
+  },
+  {
+    "questionid": 290,
+    "questioncategory": "School",
+    "option1": "Your school has a secret underground tunnel system",
+    "option2": "Your school has a rooftop garden with amazing views"
+  },
+  {
+    "questionid": 291,
+    "questioncategory": "School",
+    "option1": "Have all your classes be electives and self-paced",
+    "option2": "Have a strict curriculum with mandatory classes but always get perfect instruction"
+  },
+  {
+    "questionid": 292,
+    "questioncategory": "School",
+    "option1": "Your classmates are all geniuses but socially awkward",
+    "option2": "Your classmates are all average but incredibly social and fun"
+  },
+  {
+    "questionid": 293,
+    "questioncategory": "School",
+    "option1": "Be able to perfectly memorize all historical dates",
+    "option2": "Be able to perfectly understand all scientific formulas"
+  },
+  {
+    "questionid": 294,
+    "questioncategory": "School",
+    "option1": "Your school has mandatory physical education every day for an hour",
+    "option2": "Your school has mandatory art class every day for an hour"
+  },
+  {
+    "questionid": 295,
+    "questioncategory": "School",
+    "option1": "Always be chosen for every school play",
+    "option2": "Always be chosen for every school sports team"
+  },
+  {
+    "questionid": 296,
+    "questioncategory": "School",
+    "option1": "Your principal is a former spy",
+    "option2": "Your librarian is a former rock star"
+  },
+  {
+    "questionid": 297,
+    "questioncategory": "School",
+    "option1": "Be able to instantly find any book in the school library",
+    "option2": "Be able to instantly write a research paper on any topic"
+  },
+  {
+    "questionid": 298,
+    "questioncategory": "School",
+    "option1": "Have a school cafeteria that serves your favorite meal every day",
+    "option2": "Have a school that has no cafeteria but endless food trucks"
+  },
+  {
+    "questionid": 299,
+    "questioncategory": "School",
+    "option1": "Be able to perfectly explain any concept to anyone",
+    "option2": "Be able to perfectly learn any concept from anyone"
+  },
+  {
+    "questionid": 300,
+    "questioncategory": "School",
+    "option1": "Go to a school where everyone is incredibly competitive",
+    "option2": "Go to a school where everyone is incredibly supportive"
+  },
+  {
+    "questionid": 301,
+    "questioncategory": "Career",
+    "option1": "Have a job you love but it doesn't pay well",
+    "option2": "Have a job you hate but it pays incredibly well"
+  },
+  {
+    "questionid": 302,
+    "questioncategory": "Career",
+    "option1": "Be your own boss but always be stressed",
+    "option2": "Work for someone else but have no stress"
+  },
+  {
+    "questionid": 303,
+    "questioncategory": "Career",
+    "option1": "Be famous for your work but live in poverty",
+    "option2": "Be unknown but incredibly wealthy from your work"
+  },
+  {
+    "questionid": 304,
+    "questioncategory": "Career",
+    "option1": "Have a job where you travel constantly",
+    "option2": "Have a job where you work from home permanently"
+  },
+  {
+    "questionid": 305,
+    "questioncategory": "Career",
+    "option1": "Be incredibly good at one specific skill in your career",
+    "option2": "Be good at many different skills in your career"
+  },
+  {
+    "questionid": 306,
+    "questioncategory": "Career",
+    "option1": "Work 4 hours a day for your entire life and get paid decently",
+    "option2": "Work 12 hours a day for 10 years and retire wealthy"
+  },
+  {
+    "questionid": 307,
+    "questioncategory": "Career",
+    "option1": "Have a great relationship with your boss but dislike your coworkers",
+    "option2": "Have a terrible relationship with your boss but love your coworkers"
+  },
+  {
+    "questionid": 308,
+    "questioncategory": "Career",
+    "option1": "Always meet your deadlines perfectly but your work is mediocre",
+    "option2": "Always miss your deadlines but your work is groundbreaking"
+  },
+  {
+    "questionid": 309,
+    "questioncategory": "Career",
+    "option1": "Be the most valued employee in a small company",
+    "option2": "Be a valuable but small cog in a huge corporation"
+  },
+  {
+    "questionid": 310,
+    "questioncategory": "Career",
+    "option1": "Work in a field that is constantly changing and evolving",
+    "option2": "Work in a stable, unchanging field"
+  },
+  {
+    "questionid": 311,
+    "questioncategory": "Career",
+    "option1": "Have a job where you are constantly challenged and learning",
+    "option2": "Have a job where you can easily do your tasks and relax"
+  },
+  {
+    "questionid": 312,
+    "questioncategory": "Career",
+    "option1": "Be able to perfectly network with anyone in your field",
+    "option2": "Be able to perfectly present your ideas to any audience"
+  },
+  {
+    "questionid": 313,
+    "questioncategory": "Career",
+    "option1": "Work in an office with perfect ergonomic chairs but terrible coffee",
+    "option2": "Work in an office with terrible chairs but gourmet coffee"
+  },
+  {
+    "questionid": 314,
+    "questioncategory": "Career",
+    "option1": "Have a job that impacts millions of people but no one knows your name",
+    "option2": "Have a job that impacts a few people deeply and everyone knows your name"
+  },
+  {
+    "questionid": 315,
+    "questioncategory": "Career",
+    "option1": "Be able to perfectly delegate any task",
+    "option2": "Be able to perfectly complete any task yourself"
+  },
+  {
+    "questionid": 316,
+    "questioncategory": "Career",
+    "option1": "Have a job with mandatory social events every week",
+    "option2": "Have a job with no social events but a very isolated team"
+  },
+  {
+    "questionid": 317,
+    "questioncategory": "Career",
+    "option1": "Always have a mentor who guides your career path",
+    "option2": "Always forge your own path with no guidance"
+  },
+  {
+    "questionid": 318,
+    "questioncategory": "Career",
+    "option1": "Your career is your passion, but you burn out quickly",
+    "option2": "Your career is just a job, but you have great work-life balance"
+  },
+  {
+    "questionid": 319,
+    "questioncategory": "Career",
+    "option1": "Be able to perfectly negotiate any salary or raise",
+    "option2": "Be able to perfectly avoid all office politics"
+  },
+  {
+    "questionid": 320,
+    "questioncategory": "Career",
+    "option1": "Work in a super competitive industry",
+    "option2": "Work in a super collaborative industry"
+  },
+  {
+    "questionid": 321,
+    "questioncategory": "Career",
+    "option1": "Have a job where you constantly face public criticism",
+    "option2": "Have a job where your work is always behind the scenes"
+  },
+  {
+    "questionid": 322,
+    "questioncategory": "Career",
+    "option1": "Be able to perfectly manage multiple projects simultaneously",
+    "option2": "Be able to perfectly focus on one project at a time until completion"
+  },
+  {
+    "questionid": 323,
+    "questioncategory": "Career",
+    "option1": "Your job requires you to wear a silly uniform every day",
+    "option2": "Your job requires you to work in a cubicle with no windows"
+  },
+  {
+    "questionid": 324,
+    "questioncategory": "Career",
+    "option1": "Have a work environment where everyone is much older than you",
+    "option2": "Have a work environment where everyone is much younger than you"
+  },
+  {
+    "questionid": 325,
+    "questioncategory": "Career",
+    "option1": "Be the first person to invent something revolutionary",
+    "option2": "Be the person who perfects an existing invention"
+  },
+  {
+    "questionid": 326,
+    "questioncategory": "Career",
+    "option1": "Have a job that requires constant travel to exotic locations but is very dangerous",
+    "option2": "Have a safe, boring job that always keeps you at home"
+  },
+  {
+    "questionid": 327,
+    "questioncategory": "Career",
+    "option1": "Be able to perfectly mediate any workplace conflict",
+    "option2": "Be able to perfectly resolve any technical issue at work"
+  },
+  {
+    "questionid": 328,
+    "questioncategory": "Career",
+    "option1": "Your career is constantly evolving with new technologies",
+    "option2": "Your career is based on traditional methods that never change"
+  },
+  {
+    "questionid": 329,
+    "questioncategory": "Career",
+    "option1": "Have a job that requires you to work alone most of the time",
+    "option2": "Have a job that requires constant teamwork and collaboration"
+  },
+  {
+    "questionid": 330,
+    "questioncategory": "Career",
+    "option1": "Be a highly respected academic but earn very little",
+    "option2": "Be a highly successful entrepreneur but have no formal education"
+  },
+  {
+    "questionid": 331,
+    "questioncategory": "Gaming",
+    "option1": "Only be able to play single-player games for the rest of your life",
+    "option2": "Only be able to play multiplayer games for the rest of your life"
+  },
+  {
+    "questionid": 332,
+    "questioncategory": "Gaming",
+    "option1": "Have infinite lives in every game",
+    "option2": "Be able to save and load at any point in any game"
+  },
+  {
+    "questionid": 333,
+    "questioncategory": "Gaming",
+    "option1": "Play every game perfectly on your first try",
+    "option2": "Experience the joy of struggling and finally mastering every game"
+  },
+  {
+    "questionid": 334,
+    "questioncategory": "Gaming",
+    "option1": "Have the best gaming PC but terrible internet",
+    "option2": "Have a mediocre gaming PC but lightning-fast internet"
+  },
+  {
+    "questionid": 335,
+    "questioncategory": "Gaming",
+    "option1": "Be a professional esports player with a short but famous career",
+    "option2": "Be a casual gamer who plays for fun your entire life"
+  },
+  {
+    "questionid": 336,
+    "questioncategory": "Gaming",
+    "option1": "Only be able to play retro games",
+    "option2": "Only be able to play future, unreleased games"
+  },
+  {
+    "questionid": 337,
+    "questioncategory": "Gaming",
+    "option1": "Have a gaming setup with the best visuals but terrible audio",
+    "option2": "Have a gaming setup with terrible visuals but amazing audio"
+  },
+  {
+    "questionid": 338,
+    "questioncategory": "Gaming",
+    "option1": "Always find all the hidden secrets and easter eggs in every game",
+    "option2": "Always be the first to complete every new game released"
+  },
+  {
+    "questionid": 339,
+    "questioncategory": "Gaming",
+    "option1": "Be able to perfectly execute any combo in a fighting game",
+    "option2": "Be able to perfectly land any headshot in an FPS game"
+  },
+  {
+    "questionid": 340,
+    "questioncategory": "Gaming",
+    "option1": "Have an unlimited budget for games but only play games you already own",
+    "option2": "Have no budget for games but access to every new release for free"
+  },
+  {
+    "questionid": 341,
+    "questioncategory": "Gaming",
+    "option1": "Be able to physically enter any game and interact with it",
+    "option2": "Be able to create any game you can imagine from scratch"
+  },
+  {
+    "questionid": 342,
+    "questioncategory": "Gaming",
+    "option1": "Your favorite game never gets a sequel but is considered a perfect standalone",
+    "option2": "Your favorite game gets many sequels but they are all mediocre"
+  },
+  {
+    "questionid": 343,
+    "questioncategory": "Gaming",
+    "option1": "Only be able to play games with terrible graphics but amazing stories",
+    "option2": "Only be able to play games with amazing graphics but terrible stories"
+  },
+  {
+    "questionid": 344,
+    "questioncategory": "Gaming",
+    "option1": "Have every game glitch in your favor",
+    "option2": "Have every game glitch against your opponents"
+  },
+  {
+    "questionid": 345,
+    "questioncategory": "Gaming",
+    "option1": "Be able to perfectly mod any game to your liking",
+    "option2": "Be able to perfectly speedrun any game"
+  },
+  {
+    "questionid": 346,
+    "questioncategory": "Gaming",
+    "option1": "Only play games on console",
+    "option2": "Only play games on PC"
+  },
+  {
+    "questionid": 347,
+    "questioncategory": "Gaming",
+    "option1": "Always have the perfect gaming snacks appear next to you",
+    "option2": "Never have your controller or mouse run out of battery"
+  },
+  {
+    "questionid": 348,
+    "questioncategory": "Gaming",
+    "option1": "Be able to instantly skip all cutscenes in any game",
+    "option2": "Be able to instantly skip all loading screens in any game"
+  },
+  {
+    "questionid": 349,
+    "questioncategory": "Gaming",
+    "option1": "Have a personal AI companion in every game that gives perfect advice",
+    "option2": "Have a personal AI opponent in every game that always gives you a challenge"
+  },
+  {
+    "questionid": 350,
+    "questioncategory": "Gaming",
+    "option1": "Only play open-world games",
+    "option2": "Only play linear story-driven games"
+  },
+  {
+    "questionid": 351,
+    "questioncategory": "Gaming",
+    "option1": "Be able to perfectly mimic any gaming character's voice",
+    "option2": "Be able to perfectly recreate any gaming character's movements"
+  },
+  {
+    "questionid": 352,
+    "questioncategory": "Gaming",
+    "option1": "Your gaming achievements are recognized by everyone, but you gain no money",
+    "option2": "Your gaming achievements earn you a lot of money, but no one knows about them"
+  },
+  {
+    "questionid": 353,
+    "questioncategory": "Gaming",
+    "option1": "Always have perfect aim in shooter games",
+    "option2": "Always have perfect strategy in strategy games"
+  },
+  {
+    "questionid": 354,
+    "questioncategory": "Gaming",
+    "option1": "Be able to control all NPCs in any game",
+    "option2": "Be able to control all the environment in any game"
+  },
+  {
+    "questionid": 355,
+    "questioncategory": "Gaming",
+    "option1": "Your games constantly crash but you never lose progress",
+    "option2": "Your games never crash but you lose all progress if you die once"
+  },
+  {
+    "questionid": 356,
+    "questioncategory": "Gaming",
+    "option1": "Be able to perfectly design any level in any game",
+    "option2": "Be able to perfectly compose any soundtrack for any game"
+  },
+  {
+    "questionid": 357,
+    "questioncategory": "Gaming",
+    "option1": "Only play games with a deep, complex narrative",
+    "option2": "Only play games with simple, addictive gameplay loops"
+  },
+  {
+    "questionid": 358,
+    "questioncategory": "Gaming",
+    "option1": "Be able to find all glitches that allow you to skip content",
+    "option2": "Be able to find all hidden lore and backstory in games"
+  },
+  {
+    "questionid": 359,
+    "questioncategory": "Gaming",
+    "option1": "Have a gaming chair that gives you a perfect massage while you play",
+    "option2": "Have a VR headset that perfectly simulates the game world"
+  },
+  {
+    "questionid": 360,
+    "questioncategory": "Gaming",
+    "option1": "Always win competitive games but your opponents hate you",
+    "option2": "Always lose competitive games but everyone loves playing with you"
+  },
+  {
+    "questionid": 361,
+    "questioncategory": "Entertainment",
+    "option1": "Watch only movies for the rest of your life",
+    "option2": "Watch only TV shows for the rest of your life"
+  },
+  {
+    "questionid": 362,
+    "questioncategory": "Entertainment",
+    "option1": "Have a private concert with your favorite musician",
+    "option2": "Be able to star in a movie with your favorite actor"
+  },
+  {
+    "questionid": 363,
+    "questioncategory": "Entertainment",
+    "option1": "Only be able to watch sad movies/shows",
+    "option2": "Only be able to watch bad movies/shows"
+  },
+  {
+    "questionid": 364,
+    "questioncategory": "Entertainment",
+    "option1": "Know every movie quote by heart",
+    "option2": "Know every song lyric by heart"
+  },
+  {
+    "questionid": 365,
+    "questioncategory": "Entertainment",
+    "option1": "Be a world-renowned actor but only star in commercials",
+    "option2": "Be a critically acclaimed director but your movies are never seen by many"
+  },
+  {
+    "questionid": 366,
+    "questioncategory": "Entertainment",
+    "option1": "Have every streaming service for free forever",
+    "option2": "Have free tickets to any live entertainment event forever"
+  },
+  {
+    "questionid": 367,
+    "questioncategory": "Entertainment",
+    "option1": "Only listen to music from one genre for the rest of your life",
+    "option2": "Never listen to music again"
+  },
+  {
+    "questionid": 368,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to perfectly sing any song",
+    "option2": "Be able to perfectly dance to any song"
+  },
+  {
+    "questionid": 369,
+    "questioncategory": "Entertainment",
+    "option1": "Always know the ending of every movie/show before watching it",
+    "option2": "Always forget the ending of every movie/show right after watching it"
+  },
+  {
+    "questionid": 370,
+    "questioncategory": "Entertainment",
+    "option1": "Have a personal film critic who rates your life",
+    "option2": "Have a personal soundtrack for your life that changes with your mood"
+  },
+  {
+    "questionid": 371,
+    "questioncategory": "Entertainment",
+    "option1": "Only be able to watch documentaries",
+    "option2": "Only be able to watch reality TV"
+  },
+  {
+    "questionid": 372,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to perfectly impersonate any celebrity",
+    "option2": "Be able to perfectly draw caricatures of any celebrity"
+  },
+  {
+    "questionid": 373,
+    "questioncategory": "Entertainment",
+    "option1": "Have a personal stand-up comedian perform for you whenever you're sad",
+    "option2": "Have a personal therapist who is also a famous actor"
+  },
+  {
+    "questionid": 374,
+    "questioncategory": "Entertainment",
+    "option1": "Only watch movies that were critically panned but are secretly good",
+    "option2": "Only watch movies that were critically acclaimed but you personally dislike"
+  },
+  {
+    "questionid": 375,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to perfectly play any musical instrument by ear",
+    "option2": "Be able to perfectly compose original music in any genre"
+  },
+  {
+    "questionid": 376,
+    "questioncategory": "Entertainment",
+    "option1": "Have all movie theaters play your favorite movie 24/7",
+    "option2": "Have all music concerts be performed by your favorite band 24/7"
+  },
+  {
+    "questionid": 377,
+    "questioncategory": "Entertainment",
+    "option1": "Only be able to consume entertainment that is educational",
+    "option2": "Only be able to consume entertainment that is purely for escapism"
+  },
+  {
+    "questionid": 378,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to flawlessly recite any monologue from a play",
+    "option2": "Be able to flawlessly perform any dance routine from a musical"
+  },
+  {
+    "questionid": 379,
+    "questioncategory": "Entertainment",
+    "option1": "Have a home theater system that makes every movie feel like a live performance",
+    "option2": "Have a music system that makes every song feel like you're at the concert"
+  },
+  {
+    "questionid": 380,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to predict every plot twist in a story",
+    "option2": "Be completely surprised by every plot twist in a story"
+  },
+  {
+    "questionid": 381,
+    "questioncategory": "Entertainment",
+    "option1": "Only watch black and white movies",
+    "option2": "Only watch silent movies"
+  },
+  {
+    "questionid": 382,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to instantly learn any acting method",
+    "option2": "Be able to instantly learn any musical theory"
+  },
+  {
+    "questionid": 383,
+    "questioncategory": "Entertainment",
+    "option1": "Have a personal stylist who only dresses you as movie characters",
+    "option2": "Have a personal chef who only cooks meals from movie scenes"
+  },
+  {
+    "questionid": 384,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to edit your own life like a movie, adding special effects",
+    "option2": "Be able to add background music to your life that only you can hear"
+  },
+  {
+    "questionid": 385,
+    "questioncategory": "Entertainment",
+    "option1": "Only be able to watch live sports",
+    "option2": "Only be able to watch recorded sporting events with commentary"
+  },
+  {
+    "questionid": 386,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to conjure any prop from a movie on demand",
+    "option2": "Be able to conjure any costume from a play on demand"
+  },
+  {
+    "questionid": 387,
+    "questioncategory": "Entertainment",
+    "option1": "Have a photographic memory for every movie and TV show you've seen",
+    "option2": "Have a perfect auditory memory for every song and piece of music you've heard"
+  },
+  {
+    "questionid": 388,
+    "questioncategory": "Entertainment",
+    "option1": "Be able to experience any book as if you're living it",
+    "option2": "Be able to experience any painting as if you're inside it"
+  },
+  {
+    "questionid": 389,
+    "questioncategory": "Entertainment",
+    "option1": "Only listen to podcasts for entertainment",
+    "option2": "Only listen to audiobooks for entertainment"
+  },
+  {
+    "questionid": 390,
+    "questioncategory": "Entertainment",
+    "option1": "Have a movie star as your best friend",
+    "option2": "Have a rock star as your best friend"
+  },
+  {
+    "questionid": 391,
+    "questioncategory": "Sports",
+    "option1": "Be the best player on a losing team",
+    "option2": "Be an average player on a championship team"
+  },
+  {
+    "questionid": 392,
+    "questioncategory": "Sports",
+    "option1": "Win an Olympic gold medal but no one remembers your name",
+    "option2": "Be a legendary athlete but never win any major awards"
+  },
+  {
+    "questionid": 393,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly play any sport",
+    "option2": "Be able to perfectly coach any sport"
+  },
+  {
+    "questionid": 394,
+    "questioncategory": "Sports",
+    "option1": "Have endless energy for any physical activity",
+    "option2": "Never get injured playing sports"
+  },
+  {
+    "questionid": 395,
+    "questioncategory": "Sports",
+    "option1": "Be able to run a marathon in record time every day",
+    "option2": "Be able to lift a car with one hand"
+  },
+  {
+    "questionid": 396,
+    "questioncategory": "Sports",
+    "option1": "Always have courtside seats to any game you want",
+    "option2": "Always get a signed jersey from your favorite player after every game"
+  },
+  {
+    "questionid": 397,
+    "questioncategory": "Sports",
+    "option1": "Be able to predict the outcome of any sporting event",
+    "option2": "Be able to influence the outcome of any sporting event (without cheating)"
+  },
+  {
+    "questionid": 398,
+    "questioncategory": "Sports",
+    "option1": "Only play individual sports",
+    "option2": "Only play team sports"
+  },
+  {
+    "questionid": 399,
+    "questioncategory": "Sports",
+    "option1": "Have your team win the championship every year but you never play",
+    "option2": "Never win a championship but be the star player on your team"
+  },
+  {
+    "questionid": 400,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly imitate any athletic move",
+    "option2": "Be able to perfectly teach any athletic move"
+  },
+  {
+    "questionid": 401,
+    "questioncategory": "Sports",
+    "option1": "Always have brand new, perfectly fitting athletic gear",
+    "option2": "Always have access to the best training facilities"
+  },
+  {
+    "questionid": 402,
+    "questioncategory": "Sports",
+    "option1": "Be a professional athlete in a non-popular sport but be wealthy",
+    "option2": "Be a professional athlete in a popular sport but be poorly paid"
+  },
+  {
+    "questionid": 403,
+    "questioncategory": "Sports",
+    "option1": "Have a stadium named after you",
+    "option2": "Have a legendary move named after you"
+  },
+  {
+    "questionid": 404,
+    "questioncategory": "Sports",
+    "option1": "Only be able to watch sports in person",
+    "option2": "Only be able to watch sports on TV with perfect commentary"
+  },
+  {
+    "questionid": 405,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly perform any trick shot in any sport",
+    "option2": "Be able to perfectly break any existing sports record"
+  },
+  {
+    "questionid": 406,
+    "questioncategory": "Sports",
+    "option1": "Your favorite team always wins but you have to wear their rival's jersey",
+    "option2": "Your favorite team always loses but you get to wear their coolest merchandise"
+  },
+  {
+    "questionid": 407,
+    "questioncategory": "Sports",
+    "option1": "Be a master of martial arts",
+    "option2": "Be a master of extreme sports"
+  },
+  {
+    "questionid": 408,
+    "questioncategory": "Sports",
+    "option1": "Have a personal sports psychologist to optimize your performance",
+    "option2": "Have a personal physical therapist to keep you injury-free"
+  },
+  {
+    "questionid": 409,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly analyze any opponent's weaknesses",
+    "option2": "Be able to perfectly conceal your own weaknesses"
+  },
+  {
+    "questionid": 410,
+    "questioncategory": "Sports",
+    "option1": "Only play sports in extreme weather conditions",
+    "option2": "Only play sports with unusual rules"
+  },
+  {
+    "questionid": 411,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly throw any ball with accuracy",
+    "option2": "Be able to perfectly catch any ball with ease"
+  },
+  {
+    "questionid": 412,
+    "questioncategory": "Sports",
+    "option1": "Have a sports career where you are constantly breaking records but often injured",
+    "option2": "Have a long, consistent sports career with no injuries but no records broken"
+  },
+  {
+    "questionid": 413,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly swim across any ocean",
+    "option2": "Be able to perfectly climb any mountain"
+  },
+  {
+    "questionid": 414,
+    "questioncategory": "Sports",
+    "option1": "Your coach is a strict disciplinarian who wins championships",
+    "option2": "Your coach is a friendly motivator who never wins championships"
+  },
+  {
+    "questionid": 415,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly hit a golf ball every time",
+    "option2": "Be able to perfectly make a free throw every time"
+  },
+  {
+    "questionid": 416,
+    "questioncategory": "Sports",
+    "option1": "Only play sports that involve water",
+    "option2": "Only play sports that involve ice"
+  },
+  {
+    "questionid": 417,
+    "questioncategory": "Sports",
+    "option1": "Have perfect hand-eye coordination",
+    "option2": "Have perfect spatial awareness"
+  },
+  {
+    "questionid": 418,
+    "questioncategory": "Sports",
+    "option1": "Be known for your sportsmanship",
+    "option2": "Be known for your fierce competitiveness"
+  },
+  {
+    "questionid": 419,
+    "questioncategory": "Sports",
+    "option1": "Be able to perfectly execute any flip or acrobatic move",
+    "option2": "Be able to perfectly balance on any surface"
+  },
+  {
+    "questionid": 420,
+    "questioncategory": "Sports",
+    "option1": "Play on a team that constantly wins but is hated by the fans",
+    "option2": "Play on a team that constantly loses but is beloved by the fans"
+  },
+  {
+    "questionid": 421,
+    "questioncategory": "Friendship",
+    "option1": "Have one best friend you trust with everything",
+    "option2": "Have many acquaintances you can always rely on"
+  },
+  {
+    "questionid": 422,
+    "questioncategory": "Friendship",
+    "option1": "Always be the one who organizes group activities",
+    "option2": "Always be the one who gets invited to group activities"
+  },
+  {
+    "questionid": 423,
+    "questioncategory": "Friendship",
+    "option1": "Have friends who are constantly challenging you to grow",
+    "option2": "Have friends who are always supportive and comforting"
+  },
+  {
+    "questionid": 424,
+    "questioncategory": "Friendship",
+    "option1": "Be able to perfectly resolve any conflict between friends",
+    "option2": "Be able to perfectly avoid any conflict with friends"
+  },
+  {
+    "questionid": 425,
+    "questioncategory": "Friendship",
+    "option1": "Have friends who are incredibly funny but unreliable",
+    "option2": "Have friends who are incredibly reliable but not very funny"
+  },
+  {
+    "questionid": 426,
+    "questioncategory": "Friendship",
+    "option1": "Your friends always tell you the truth, even if it hurts",
+    "option2": "Your friends always protect your feelings, even if it means bending the truth"
+  },
+  {
+    "questionid": 427,
+    "questioncategory": "Friendship",
+    "option1": "Be the friend who always gives great advice",
+    "option2": "Be the friend who always makes everyone laugh"
+  },
+  {
+    "questionid": 428,
+    "questioncategory": "Friendship",
+    "option1": "Have a diverse group of friends from all walks of life",
+    "option2": "Have a small, tight-knit group of friends who are very similar to you"
+  },
+  {
+    "questionid": 429,
+    "questioncategory": "Friendship",
+    "option1": "Always remember every detail about your friends' lives",
+    "option2": "Always be able to cheer your friends up instantly"
+  },
+  {
+    "questionid": 430,
+    "questioncategory": "Friendship",
+    "option1": "Your friends live far away but you have amazing virtual hangouts",
+    "option2": "Your friends live nearby but you rarely see them in person"
+  },
+  {
+    "questionid": 431,
+    "questioncategory": "Friendship",
+    "option1": "Be able to instantly know if a new person will be a good friend",
+    "option2": "Be able to instantly make anyone like you as a friend"
+  },
+  {
+    "questionid": 432,
+    "questioncategory": "Friendship",
+    "option1": "Have friends who are always on time",
+    "option2": "Have friends who are always late but bring great food"
+  },
+  {
+    "questionid": 433,
+    "questioncategory": "Friendship",
+    "option1": "Be the friend who always picks up the tab",
+    "option2": "Be the friend who always gets free things for the group"
+  },
+  {
+    "questionid": 434,
+    "questioncategory": "Friendship",
+    "option1": "Your friends are all excellent listeners",
+    "option2": "Your friends are all excellent storytellers"
+  },
+  {
+    "questionid": 435,
+    "questioncategory": "Friendship",
+    "option1": "Have a friendship where you never have to explain yourself",
+    "option2": "Have a friendship where you constantly learn new things about each other"
+  },
+  {
+    "questionid": 436,
+    "questioncategory": "Friendship",
+    "option1": "Your friends constantly prank you",
+    "option2": "Your friends constantly give you unsolicited advice"
+  },
+  {
+    "questionid": 437,
+    "questioncategory": "Friendship",
+    "option1": "Be able to perfectly comfort a crying friend",
+    "option2": "Be able to perfectly celebrate a friend's success"
+  },
+  {
+    "questionid": 438,
+    "questioncategory": "Friendship",
+    "option1": "Have friends who are always busy but make time for you when it matters",
+    "option2": "Have friends who are always available but not always engaged"
+  },
+  {
+    "questionid": 439,
+    "questioncategory": "Friendship",
+    "option1": "Your friends are incredibly talented in different areas",
+    "option2": "Your friends are all masters of one specific skill"
+  },
+  {
+    "questionid": 440,
+    "questioncategory": "Friendship",
+    "option1": "Only communicate with your friends through inside jokes",
+    "option2": "Only communicate with your friends through deep, meaningful conversations"
+  },
+  {
+    "questionid": 441,
+    "questioncategory": "Friendship",
+    "option1": "Have a friend who constantly exaggerates everything",
+    "option2": "Have a friend who constantly understates everything"
+  },
+  {
+    "questionid": 442,
+    "questioncategory": "Friendship",
+    "option1": "Be able to perfectly mimic your friend's voice and mannerisms",
+    "option2": "Be able to perfectly anticipate your friend's needs without them saying anything"
+  },
+  {
+    "questionid": 443,
+    "questioncategory": "Friendship",
+    "option1": "Your friends are all experts in different bizarre hobbies",
+    "option2": "Your friends are all experts in different intellectual fields"
+  },
+  {
+    "questionid": 444,
+    "questioncategory": "Friendship",
+    "option1": "Have a friendship that lasts your entire life but you only see them once a year",
+    "option2": "Have many intense, short-lived friendships"
+  },
+  {
+    "questionid": 445,
+    "questioncategory": "Friendship",
+    "option1": "Be able to perfectly guess what gift your friend wants",
+    "option2": "Be able to perfectly plan a surprise party for your friend"
+  },
+  {
+    "questionid": 446,
+    "questioncategory": "Friendship",
+    "option1": "Your friends are all introverts",
+    "option2": "Your friends are all extroverts"
+  },
+  {
+    "questionid": 447,
+    "questioncategory": "Friendship",
+    "option1": "Be the reason your friend tries something new and loves it",
+    "option2": "Be the reason your friend avoids a bad experience"
+  },
+  {
+    "questionid": 448,
+    "questioncategory": "Friendship",
+    "option1": "Have a friend who constantly overshares",
+    "option2": "Have a friend who rarely shares anything personal"
+  },
+  {
+    "questionid": 449,
+    "questioncategory": "Friendship",
+    "option1": "Your friend group is a tight-knit family who does everything together",
+    "option2": "Your friend group is a loose collection of individuals who enjoy each other's company occasionally"
+  },
+  {
+    "questionid": 450,
+    "questioncategory": "Friendship",
+    "option1": "Always have a friend who can bail you out of any trouble",
+    "option2": "Always have a friend who can lend you any amount of money"
+  },
+  {
+    "questionid": 451,
+    "questioncategory": "Family",
+    "option1": "Have a huge family you see often but they are always in your business",
+    "option2": "Have a small family you rarely see but they are very supportive and independent"
+  },
+  {
+    "questionid": 452,
+    "questioncategory": "Family",
+    "option1": "Your family always celebrates holidays in a grand way",
+    "option2": "Your family values quiet, intimate gatherings for holidays"
+  },
+  {
+    "questionid": 453,
+    "questioncategory": "Family",
+    "option1": "Be the designated family chef",
+    "option2": "Be the designated family tech support"
+  },
+  {
+    "questionid": 454,
+    "questioncategory": "Family",
+    "option1": "Have family who lives far away but always visits for special occasions",
+    "option2": "Have family who lives nearby but rarely visits"
+  },
+  {
+    "questionid": 455,
+    "questioncategory": "Family",
+    "option1": "Be known as the 'responsible' one in your family",
+    "option2": "Be known as the 'fun' one in your family"
+  },
+  {
+    "questionid": 456,
+    "questioncategory": "Family",
+    "option1": "Your family has a long, storied history with many interesting ancestors",
+    "option2": "Your family is newly established but creates exciting new traditions"
+  },
+  {
+    "questionid": 457,
+    "questioncategory": "Family",
+    "option1": "Always have family drama unfolding",
+    "option2": "Never have family drama but your family is very boring"
+  },
+  {
+    "questionid": 458,
+    "questioncategory": "Family",
+    "option1": "Be able to perfectly mimic any family member's voice",
+    "option2": "Be able to perfectly remember every family story"
+  },
+  {
+    "questionid": 459,
+    "questioncategory": "Family",
+    "option1": "Your family always gives you thoughtful, handmade gifts",
+    "option2": "Your family always gives you practical, expensive gifts"
+  },
+  {
+    "questionid": 460,
+    "questioncategory": "Family",
+    "option1": "Live in a multi-generational household",
+    "option2": "Live completely independently from your family"
+  },
+  {
+    "questionid": 461,
+    "questioncategory": "Family",
+    "option1": "Always be the one who organizes family vacations",
+    "option2": "Always be the one who pays for family vacations"
+  },
+  {
+    "questionid": 462,
+    "questioncategory": "Family",
+    "option1": "Your family is incredibly athletic",
+    "option2": "Your family is incredibly artistic"
+  },
+  {
+    "questionid": 463,
+    "questioncategory": "Family",
+    "option1": "Have a family member who is a celebrity",
+    "option2": "Have a family member who is a secret millionaire"
+  },
+  {
+    "questionid": 464,
+    "questioncategory": "Family",
+    "option1": "Your family always gives you unsolicited advice",
+    "option2": "Your family rarely gives you advice, even when you need it"
+  },
+  {
+    "questionid": 465,
+    "questioncategory": "Family",
+    "option1": "Be able to instantly know what your family members are worried about",
+    "option2": "Be able to instantly know what your family members are happy about"
+  },
+  {
+    "questionid": 466,
+    "questioncategory": "Family",
+    "option1": "Your family communicates primarily through group chat",
+    "option2": "Your family communicates primarily through weekly phone calls"
+  },
+  {
+    "questionid": 467,
+    "questioncategory": "Family",
+    "option1": "Be the favorite child/sibling",
+    "option2": "Be the black sheep of the family"
+  },
+  {
+    "questionid": 468,
+    "questioncategory": "Family",
+    "option1": "Your family is always brutally honest with each other",
+    "option2": "Your family always avoids conflict and maintains harmony"
+  },
+  {
+    "questionid": 469,
+    "questioncategory": "Family",
+    "option1": "Have a family secret that everyone knows but no one talks about",
+    "option2": "Have a family tradition that makes no sense but everyone loves"
+  },
+  {
+    "questionid": 470,
+    "questioncategory": "Family",
+    "option1": "Be able to perfectly bake any family recipe without a cookbook",
+    "option2": "Be able to perfectly fix any broken item in the house"
+  },
+  {
+    "questionid": 471,
+    "questioncategory": "Family",
+    "option1": "Your family always agrees on where to eat",
+    "option2": "Your family always has arguments about where to eat but eventually finds something great"
+  },
+  {
+    "questionid": 472,
+    "questioncategory": "Family",
+    "option1": "Be able to perfectly mimic your family's catchphrases",
+    "option2": "Be able to perfectly tell your family's legendary stories"
+  },
+  {
+    "questionid": 473,
+    "questioncategory": "Family",
+    "option1": "Have a family reunion every year with hundreds of relatives",
+    "option2": "Have a small family gathering every month with only immediate family"
+  },
+  {
+    "questionid": 474,
+    "questioncategory": "Family",
+    "option1": "Your family expects you to be successful in a specific career",
+    "option2": "Your family supports whatever career path you choose, even if it's unconventional"
+  },
+  {
+    "questionid": 475,
+    "questioncategory": "Family",
+    "option1": "Be able to perfectly assemble any IKEA furniture for your family",
+    "option2": "Be able to perfectly set up any electronic device for your family"
+  },
+  {
+    "questionid": 476,
+    "questioncategory": "Family",
+    "option1": "Your family always gets together for game nights",
+    "option2": "Your family always gets together for movie nights"
+  },
+  {
+    "questionid": 477,
+    "questioncategory": "Family",
+    "option1": "Be the family historian who remembers every detail",
+    "option2": "Be the family futurist who always predicts what's next"
+  },
+  {
+    "questionid": 478,
+    "questioncategory": "Family",
+    "option1": "Your family constantly sends you chain emails and social media requests",
+    "option2": "Your family rarely contacts you unless it's urgent"
+  },
+  {
+    "questionid": 479,
+    "questioncategory": "Family",
+    "option1": "Have a family pet that lives forever",
+    "option2": "Have a family member who never ages"
+  },
+  {
+    "questionid": 480,
+    "questioncategory": "Family",
+    "option1": "Be able to instantly cheer up any grumpy family member",
+    "option2": "Be able to instantly resolve any family argument"
+  },
+  {
+    "questionid": 481,
+    "questioncategory": "Money",
+    "option1": "Win the lottery but lose all your friends and family",
+    "option2": "Never win the lottery but have loving friends and family"
+  },
+  {
+    "questionid": 482,
+    "questioncategory": "Money",
+    "option1": "Have unlimited money but only be able to spend it on necessities",
+    "option2": "Have a limited amount of money but be able to buy anything you want within that limit"
+  },
+  {
+    "questionid": 483,
+    "questioncategory": "Money",
+    "option1": "Be incredibly wealthy but live a minimalist lifestyle",
+    "option2": "Be moderately wealthy but live a lavish lifestyle"
+  },
+  {
+    "questionid": 484,
+    "questioncategory": "Money",
+    "option1": "Never have to work again but live paycheck to paycheck",
+    "option2": "Work a job you love and be financially secure"
+  },
+  {
+    "questionid": 485,
+    "questioncategory": "Money",
+    "option1": "Be able to instantly generate any amount of money but it disappears after an hour",
+    "option2": "Be able to perfectly invest any amount of money and see it grow slowly"
+  },
+  {
+    "questionid": 486,
+    "questioncategory": "Money",
+    "option1": "Always get free food at restaurants",
+    "option2": "Always get free clothes from stores"
+  },
+  {
+    "questionid": 487,
+    "questioncategory": "Money",
+    "option1": "Have your entire life expenses paid for by a mysterious benefactor",
+    "option2": "Be able to earn enough money to live comfortably from a hobby you love"
+  },
+  {
+    "questionid": 488,
+    "questioncategory": "Money",
+    "option1": "Be a millionaire but everyone knows how you got your money (e.g., shady dealings)",
+    "option2": "Be a regular person with a good reputation and stable finances"
+  },
+  {
+    "questionid": 489,
+    "questioncategory": "Money",
+    "option1": "Have a magic wallet that always has enough cash for what you need at that moment",
+    "option2": "Have a magic bank account that doubles your money every month"
+  },
+  {
+    "questionid": 490,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly budget your money and never overspend",
+    "option2": "Be able to perfectly find deals and discounts on everything you buy"
+  },
+  {
+    "questionid": 491,
+    "questioncategory": "Money",
+    "option1": "Only be able to pay for things with cash",
+    "option2": "Only be able to pay for things with cryptocurrency"
+  },
+  {
+    "questionid": 492,
+    "questioncategory": "Money",
+    "option1": "Have a personal financial advisor who is a genius but only speaks in riddles",
+    "option2": "Have a personal accountant who is average but always makes you laugh"
+  },
+  {
+    "questionid": 493,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly predict the stock market",
+    "option2": "Be able to perfectly predict winning lottery numbers"
+  },
+  {
+    "questionid": 494,
+    "questioncategory": "Money",
+    "option1": "Always have free access to public transportation",
+    "option2": "Always have a free, luxurious car and personal driver"
+  },
+  {
+    "questionid": 495,
+    "questioncategory": "Money",
+    "option1": "Be able to afford anything you want but have no time to enjoy it",
+    "option2": "Have plenty of time but never be able to afford anything extravagant"
+  },
+  {
+    "questionid": 496,
+    "questioncategory": "Money",
+    "option1": "Always find money on the street, but it's always small amounts",
+    "option2": "Rarely find money, but when you do it's always a large sum"
+  },
+  {
+    "questionid": 497,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly save money without effort",
+    "option2": "Be able to perfectly earn money without effort"
+  },
+  {
+    "questionid": 498,
+    "questioncategory": "Money",
+    "option1": "Your house is filled with expensive, beautiful art but it's a rental",
+    "option2": "Your house is simple but you own it outright"
+  },
+  {
+    "questionid": 499,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly negotiate any deal to your advantage",
+    "option2": "Be able to perfectly understand any financial jargon or complex contract"
+  },
+  {
+    "questionid": 500,
+    "questioncategory": "Money",
+    "option1": "Only buy things second-hand",
+    "option2": "Only buy things brand new"
+  },
+  {
+    "questionid": 501,
+    "questioncategory": "Money",
+    "option1": "Be able to live comfortably anywhere in the world on a small income",
+    "option2": "Be able to earn a massive income but only in a place you hate"
+  },
+  {
+    "questionid": 502,
+    "questioncategory": "Money",
+    "option1": "Have all your debts instantly paid off but you can never incur new debt",
+    "option2": "Have an endless supply of free financial advice"
+  },
+  {
+    "questionid": 503,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly manage a large fortune for charity",
+    "option2": "Be able to perfectly manage a large fortune for personal gain"
+  },
+  {
+    "questionid": 504,
+    "questioncategory": "Money",
+    "option1": "Your clothes are always designer and expensive, but you hate them",
+    "option2": "Your clothes are always comfortable and affordable, and you love them"
+  },
+  {
+    "questionid": 505,
+    "questioncategory": "Money",
+    "option1": "Be able to make money while you sleep",
+    "option2": "Be able to save money on everything you buy"
+  },
+  {
+    "questionid": 506,
+    "questioncategory": "Money",
+    "option1": "Have a solid financial plan for your entire life",
+    "option2": "Live day-to-day with financial uncertainty but amazing opportunities"
+  },
+  {
+    "questionid": 507,
+    "questioncategory": "Money",
+    "option1": "Always have the exact change for anything you buy",
+    "option2": "Always get a discount on everything you buy"
+  },
+  {
+    "questionid": 508,
+    "questioncategory": "Money",
+    "option1": "Be able to perfectly identify counterfeit money",
+    "option2": "Be able to perfectly understand complex financial reports"
+  },
+  {
+    "questionid": 509,
+    "questioncategory": "Money",
+    "option1": "Your financial success is a secret from everyone",
+    "option2": "Your financial success is public knowledge and inspires others"
+  },
+  {
+    "questionid": 510,
+    "questioncategory": "Money",
+    "option1": "Have an endless supply of your favorite expensive coffee",
+    "option2": "Have an endless supply of your favorite comfortable shoes"
+  },
+  {
+    "questionid": 511,
+    "questioncategory": "Health",
+    "option1": "Never get sick or ill, ever",
+    "option2": "Be able to eat whatever you want without any negative health consequences"
+  },
+  {
+    "questionid": 512,
+    "questioncategory": "Health",
+    "option1": "Have perfect physical health but occasional mental health struggles",
+    "option2": "Have perfect mental health but occasional physical health struggles"
+  },
+  {
+    "questionid": 513,
+    "questioncategory": "Health",
+    "option1": "Live to be 150 years old but the last 50 years are in poor health",
+    "option2": "Live to be 80 years old in perfect health until the end"
+  },
+  {
+    "questionid": 514,
+    "questioncategory": "Health",
+    "option1": "Be able to instantly heal any injury to yourself",
+    "option2": "Be able to instantly heal any injury to others"
+  },
+  {
+    "questionid": 515,
+    "questioncategory": "Health",
+    "option1": "Always feel perfectly rested, no matter how much you sleep",
+    "option2": "Always have boundless energy, no matter what you do"
+  },
+  {
+    "questionid": 516,
+    "questioncategory": "Health",
+    "option1": "Have a perfect memory for everything you've ever learned about health",
+    "option2": "Be able to perfectly diagnose any illness by touching someone"
+  },
+  {
+    "questionid": 517,
+    "questioncategory": "Health",
+    "option1": "Only be able to eat raw foods",
+    "option2": "Only be able to eat cooked foods"
+  },
+  {
+    "questionid": 518,
+    "questioncategory": "Health",
+    "option1": "Have a personal nutritionist who plans all your meals perfectly",
+    "option2": "Have a personal trainer who motivates you to exercise daily"
+  },
+  {
+    "questionid": 519,
+    "questioncategory": "Health",
+    "option1": "Never experience pain again",
+    "option2": "Never experience sadness again"
+  },
+  {
+    "questionid": 520,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly manage your stress levels",
+    "option2": "Be able to perfectly recover from any strenuous activity"
+  },
+  {
+    "questionid": 521,
+    "questioncategory": "Health",
+    "option1": "Your body always maintains a perfect temperature",
+    "option2": "Your body always perfectly adapts to any environment"
+  },
+  {
+    "questionid": 522,
+    "questioncategory": "Health",
+    "option1": "Be immune to all allergies",
+    "option2": "Be immune to all common colds and flu"
+  },
+  {
+    "questionid": 523,
+    "questioncategory": "Health",
+    "option1": "Have perfectly clear skin forever",
+    "option2": "Have perfect teeth forever"
+  },
+  {
+    "questionid": 524,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly calm anyone's anxiety",
+    "option2": "Be able to perfectly motivate anyone to achieve their fitness goals"
+  },
+  {
+    "questionid": 525,
+    "questioncategory": "Health",
+    "option1": "Never have body odor",
+    "option2": "Never have bad breath"
+  },
+  {
+    "questionid": 526,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly self-regulate your sleep schedule",
+    "option2": "Be able to perfectly control your cravings for unhealthy foods"
+  },
+  {
+    "questionid": 527,
+    "questioncategory": "Health",
+    "option1": "Have a perfect immune system that fights off everything",
+    "option2": "Have a perfect metabolism that burns everything efficiently"
+  },
+  {
+    "questionid": 528,
+    "questioncategory": "Health",
+    "option1": "Only drink water for the rest of your life for perfect health",
+    "option2": "Only eat a balanced, healthy diet for the rest of your life for perfect health"
+  },
+  {
+    "questionid": 529,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly calm a screaming baby",
+    "option2": "Be able to perfectly soothe any animal"
+  },
+  {
+    "questionid": 530,
+    "questioncategory": "Health",
+    "option1": "Never have to exercise but be in peak physical condition",
+    "option2": "Always enjoy exercising and achieve peak physical condition"
+  },
+  {
+    "questionid": 531,
+    "questioncategory": "Health",
+    "option1": "Your blood pressure is always perfect",
+    "option2": "Your cholesterol levels are always perfect"
+  },
+  {
+    "questionid": 532,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly meditate and achieve inner peace instantly",
+    "option2": "Be able to perfectly focus and concentrate on any task for hours"
+  },
+  {
+    "questionid": 533,
+    "questioncategory": "Health",
+    "option1": "Have an unlimited supply of your favorite healthy snacks",
+    "option2": "Have an unlimited supply of your favorite herbal teas for relaxation"
+  },
+  {
+    "questionid": 534,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly recover from jet lag instantly",
+    "option2": "Be able to perfectly adapt to any time zone instantly"
+  },
+  {
+    "questionid": 535,
+    "questioncategory": "Health",
+    "option1": "Always have optimal vitamin levels",
+    "option2": "Always have optimal hydration levels"
+  },
+  {
+    "questionid": 536,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly manage chronic pain",
+    "option2": "Be able to perfectly eliminate all minor aches and pains"
+  },
+  {
+    "questionid": 537,
+    "questioncategory": "Health",
+    "option1": "Your body always regenerates cells perfectly, preventing aging",
+    "option2": "Your mind always retains perfect cognitive function, preventing dementia"
+  },
+  {
+    "questionid": 538,
+    "questioncategory": "Health",
+    "option1": "Be able to perfectly regulate your body's temperature in any environment",
+    "option2": "Be able to perfectly regulate your body's energy levels throughout the day"
+  },
+  {
+    "questionid": 539,
+    "questioncategory": "Health",
+    "option1": "Have a personal doctor who is a genius but very eccentric",
+    "option2": "Have a personal therapist who is empathetic but always tells bad jokes"
+  },
+  {
+    "questionid": 540,
+    "questioncategory": "Health",
+    "option1": "Never have to wear glasses or contacts again",
+    "option2": "Never have to wear hearing aids again"
+  },
+  {
+    "questionid": 541,
+    "questioncategory": "Animals",
+    "option1": "Be able to talk to all animals but they only complain about humans",
+    "option2": "Be able to understand all animal thoughts but they are always thinking about food"
+  },
+  {
+    "questionid": 542,
+    "questioncategory": "Animals",
+    "option1": "Have a pet dragon that is the size of a cat",
+    "option2": "Have a pet cat that is the size of a dragon"
+  },
+  {
+    "questionid": 543,
+    "questioncategory": "Animals",
+    "option1": "Live in a house filled with exotic animals that you've rescued",
+    "option2": "Live on a farm with a variety of happy, well-cared-for farm animals"
+  },
+  {
+    "questionid": 544,
+    "questioncategory": "Animals",
+    "option1": "Be able to transform into any animal for an hour a day",
+    "option2": "Be able to give any animal human-level intelligence for a day"
+  },
+  {
+    "questionid": 545,
+    "questioncategory": "Animals",
+    "option1": "Have a pet that lives forever but never leaves your side",
+    "option2": "Have many pets with normal lifespans that come and go from your life"
+  },
+  {
+    "questionid": 546,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly mimic any animal sound",
+    "option2": "Be able to perfectly track any animal in the wild"
+  },
+  {
+    "questionid": 547,
+    "questioncategory": "Animals",
+    "option1": "Work as a wildlife conservationist saving endangered species",
+    "option2": "Work as a veterinarian healing sick animals"
+  },
+  {
+    "questionid": 548,
+    "questioncategory": "Animals",
+    "option1": "Have every animal you meet instantly trust you",
+    "option2": "Have every animal you meet instantly fear you (for good reasons, like scaring away predators)"
+  },
+  {
+    "questionid": 549,
+    "questioncategory": "Animals",
+    "option1": "Be able to call upon a swarm of butterflies at will",
+    "option2": "Be able to call upon a flock of pigeons at will"
+  },
+  {
+    "questionid": 550,
+    "questioncategory": "Animals",
+    "option1": "Only be able to eat food that is hunted by an animal",
+    "option2": "Only be able to eat food that is grown by plants"
+  },
+  {
+    "questionid": 551,
+    "questioncategory": "Animals",
+    "option1": "Have a pet elephant that can shrink to fit in your house",
+    "option2": "Have a pet hamster that can grow to the size of an elephant"
+  },
+  {
+    "questionid": 552,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly communicate with marine animals",
+    "option2": "Be able to perfectly communicate with land animals"
+  },
+  {
+    "questionid": 553,
+    "questioncategory": "Animals",
+    "option1": "Your pet can talk but only in riddles",
+    "option2": "Your pet can grant wishes but only silly ones"
+  },
+  {
+    "questionid": 554,
+    "questioncategory": "Animals",
+    "option1": "Have a perfect sense of smell like a dog",
+    "option2": "Have perfect night vision like an owl"
+  },
+  {
+    "questionid": 555,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly train any animal to do anything",
+    "option2": "Be able to perfectly understand any animal's behavior"
+  },
+  {
+    "questionid": 556,
+    "questioncategory": "Animals",
+    "option1": "Live in a world where all animals are domesticated and friendly",
+    "option2": "Live in a world where all animals are wild and untamed"
+  },
+  {
+    "questionid": 557,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly ride any animal like a horse",
+    "option2": "Be able to perfectly swim with any marine creature"
+  },
+  {
+    "questionid": 558,
+    "questioncategory": "Animals",
+    "option1": "Have a pet owl that delivers your mail",
+    "option2": "Have a pet monkey that does your chores"
+  },
+  {
+    "questionid": 559,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly soothe any wild animal",
+    "option2": "Be able to perfectly scare away any aggressive animal"
+  },
+  {
+    "questionid": 560,
+    "questioncategory": "Animals",
+    "option1": "Only be able to watch nature documentaries about apex predators",
+    "option2": "Only be able to watch nature documentaries about adorable baby animals"
+  },
+  {
+    "questionid": 561,
+    "questioncategory": "Animals",
+    "option1": "Your house is constantly visited by cute forest creatures",
+    "option2": "Your house is constantly visited by interesting but harmless insects"
+  },
+  {
+    "questionid": 562,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly mimic the flight of any bird",
+    "option2": "Be able to perfectly mimic the swimming of any fish"
+  },
+  {
+    "questionid": 563,
+    "questioncategory": "Animals",
+    "option1": "Have a pet that is incredibly intelligent but very lazy",
+    "option2": "Have a pet that is not very intelligent but incredibly energetic"
+  },
+  {
+    "questionid": 564,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly identify any animal by its smell",
+    "option2": "Be able to perfectly identify any animal by its footprint"
+  },
+  {
+    "questionid": 565,
+    "questioncategory": "Animals",
+    "option1": "Your pet knows all your secrets but can't tell anyone",
+    "option2": "Your pet is always honest with you, even if it hurts your feelings"
+  },
+  {
+    "questionid": 566,
+    "questioncategory": "Animals",
+    "option1": "Only wear clothes made from animal-friendly materials",
+    "option2": "Only eat food that is ethically sourced from animals"
+  },
+  {
+    "questionid": 567,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly calm a stampede of animals",
+    "option2": "Be able to perfectly guide a flock of birds"
+  },
+  {
+    "questionid": 568,
+    "questioncategory": "Animals",
+    "option1": "Have a backyard that attracts all sorts of beautiful wild animals",
+    "option2": "Have a backyard that attracts all sorts of fascinating rare insects"
+  },
+  {
+    "questionid": 569,
+    "questioncategory": "Animals",
+    "option1": "Be able to perfectly identify any animal illness by sight",
+    "option2": "Be able to perfectly treat any animal injury by touch"
+  },
+  {
+    "questionid": 570,
+    "questioncategory": "Animals",
+    "option1": "Your cat can fetch like a dog",
+    "option2": "Your dog can climb trees like a cat"
+  },
+  {
+    "questionid": 571,
+    "questioncategory": "Fantasy",
+    "option1": "Live in a world with dragons and magic but constant danger",
+    "option2": "Live in a peaceful fantasy world but without any extraordinary elements"
+  },
+  {
+    "questionid": 572,
+    "questioncategory": "Fantasy",
+    "option1": "Be a powerful wizard with limited knowledge of spells",
+    "option2": "Be a master swordsman with no magical abilities"
+  },
+  {
+    "questionid": 573,
+    "questioncategory": "Fantasy",
+    "option1": "Have a magical artifact that grants one wish per year",
+    "option2": "Have a magical creature that is your loyal companion forever"
+  },
+  {
+    "questionid": 574,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to cast any spell you can imagine but it always has a funny side effect",
+    "option2": "Be able to summon any mythical creature but they are always slightly annoying"
+  },
+  {
+    "questionid": 575,
+    "questioncategory": "Fantasy",
+    "option1": "Live in a fantastical kingdom as royalty",
+    "option2": "Live as a humble adventurer exploring forgotten lands"
+  },
+  {
+    "questionid": 576,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to understand the language of mythical beasts",
+    "option2": "Be able to read ancient magical runes"
+  },
+  {
+    "questionid": 577,
+    "questioncategory": "Fantasy",
+    "option1": "Have a magical cloak that makes you invisible but it smells like dirty socks",
+    "option2": "Have a pair of magical boots that make you run super fast but they constantly trip you"
+  },
+  {
+    "questionid": 578,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to conjure delicious food from thin air but only bland flavors",
+    "option2": "Be able to conjure powerful weapons but they vanish after one use"
+  },
+  {
+    "questionid": 579,
+    "questioncategory": "Fantasy",
+    "option1": "Have a fairy godparent who grants wishes but always misinterprets them",
+    "option2": "Have a grumpy gnome who provides perfect, albeit sarcastic, advice"
+  },
+  {
+    "questionid": 580,
+    "questioncategory": "Fantasy",
+    "option1": "Only be able to use light magic",
+    "option2": "Only be able to use dark magic"
+  },
+  {
+    "questionid": 581,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to fly on a broomstick but only when singing show tunes",
+    "option2": "Be able to teleport using a magic mirror but only to places you've seen in a dream"
+  },
+  {
+    "questionid": 582,
+    "questioncategory": "Fantasy",
+    "option1": "Have an enchanted sword that can cut through anything but it's incredibly heavy",
+    "option2": "Have a magical shield that is indestructible but it's invisible"
+  },
+  {
+    "questionid": 583,
+    "questioncategory": "Fantasy",
+    "option1": "Live in a treehouse village inhabited by elves",
+    "option2": "Live in an underground city inhabited by dwarves"
+  },
+  {
+    "questionid": 584,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to conjure illusions that are completely convincing but only last for 5 minutes",
+    "option2": "Be able to perfectly disguise yourself as anyone but your voice gives you away"
+  },
+  {
+    "questionid": 585,
+    "questioncategory": "Fantasy",
+    "option1": "Have a map that shows you the location of all hidden treasures",
+    "option2": "Have a compass that always points to your true love"
+  },
+  {
+    "questionid": 586,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to control the elements but only one at a time",
+    "option2": "Be able to transform into any animal but only for 10 seconds"
+  },
+  {
+    "questionid": 587,
+    "questioncategory": "Fantasy",
+    "option1": "Fight a giant monster with a sword and shield",
+    "option2": "Defeat a dark lord with cunning and diplomacy"
+  },
+  {
+    "questionid": 588,
+    "questioncategory": "Fantasy",
+    "option1": "Have an enchanted garden where all plants sing",
+    "option2": "Have a magical library where all books whisper secrets"
+  },
+  {
+    "questionid": 589,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to perfectly brew any potion but you have to drink it all",
+    "option2": "Be able to perfectly craft any magical item but it crumbles after one use"
+  },
+  {
+    "questionid": 590,
+    "questioncategory": "Fantasy",
+    "option1": "Only encounter friendly mythical creatures",
+    "option2": "Only encounter dangerous mythical creatures that you have to outsmart"
+  },
+  {
+    "questionid": 591,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to perfectly play any magical instrument",
+    "option2": "Be able to perfectly compose any magical spell chant"
+  },
+  {
+    "questionid": 592,
+    "questioncategory": "Fantasy",
+    "option1": "Have a magical mirror that shows you any past event",
+    "option2": "Have a crystal ball that shows you any future event"
+  },
+  {
+    "questionid": 593,
+    "questioncategory": "Fantasy",
+    "option1": "Live in a world where fairytale characters are real but mostly annoying",
+    "option2": "Live in a world where mythological gods are real but are constantly bickering"
+  },
+  {
+    "questionid": 594,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to summon a talking animal sidekick that is always sarcastic",
+    "option2": "Be able to summon a silent but incredibly powerful guardian spirit"
+  },
+  {
+    "questionid": 595,
+    "questioncategory": "Fantasy",
+    "option1": "Have a magical item that grants you perfect luck for one hour a day",
+    "option2": "Have a magical item that protects you from all harm for one minute a day"
+  },
+  {
+    "questionid": 596,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to walk through walls but they briefly turn into jello",
+    "option2": "Be able to fly but only by flapping your arms like a bird"
+  },
+  {
+    "questionid": 597,
+    "questioncategory": "Fantasy",
+    "option1": "Discover a hidden portal to another dimension",
+    "option2": "Discover a lost ancient civilization with incredible technology"
+  },
+  {
+    "questionid": 598,
+    "questioncategory": "Fantasy",
+    "option1": "Have a magical pet that can grant you one small wish per day",
+    "option2": "Have a magical plant that grows any food you desire"
+  },
+  {
+    "questionid": 599,
+    "questioncategory": "Fantasy",
+    "option1": "Be able to perfectly understand the prophecies of ancient oracles",
+    "option2": "Be able to perfectly decipher the secrets of ancient grimoires"
+  },
+  {
+    "questionid": 600,
+    "questioncategory": "Fantasy",
+    "option1": "Your life is a grand epic adventure with constant peril",
+    "option2": "Your life is a peaceful, magical existence with no major challenges"
+  }
+]

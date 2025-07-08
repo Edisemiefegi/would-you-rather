@@ -26,8 +26,8 @@
 import { defineProps, defineEmits } from 'vue';
 
 interface Option {
-  label: string;
-  value: string | number;
+  label?: string;
+  value?: string | number;
 }
 
 interface Label {
@@ -37,7 +37,7 @@ interface Label {
 
 defineProps<{
   modelValue: string | number;
-  options: Option[];
+  options?: Option[];
   placeholder?: string;
   label?: Label;
 }>();

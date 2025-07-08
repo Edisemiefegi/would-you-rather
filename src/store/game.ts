@@ -7,24 +7,39 @@ import {
   setDoc,
   db,
   getDoc,
-  onSnapshot,  updateDoc, arrayUnion
+  onSnapshot,
+  updateDoc,
+  arrayUnion,
 } from "../service/firebase.ts";
 import type { GameData } from "../types/index.ts";
-
+import questions from "../service/questions.json";
 
 export const useGamestore = defineStore("game", {
   state: () => ({
     currentGameId: "" as string,
     currentUserName: "" as string,
     currentUserId: "" as string,
-     participants: [] as { userId: string; name: string }[],
+    participants: [] as { userId: string; name: string }[],
   }),
 
   actions: {
- setCurrentUser(userId: string, userName: string) {
-    this.currentUserId = userId;
-    this.currentUserName = userName;
-  },
+async uploadQuestions () {
+ for (const q of questions) {
+  await addDoc(collection(db, "questions"), q);
+}
+console.log(questions, 'this is json');
+
+  //  await setDoc(doc(db, "questions", 'qestionsid12344555'), questions);
+
+  console.log("✅ All questions uploaded.");
+  
+},
+
+
+    setCurrentUser(userId: string, userName: string) {
+      this.currentUserId = userId;
+      this.currentUserName = userName;
+    },
 
     async createGame(config: {
       title: string;
@@ -61,47 +76,48 @@ export const useGamestore = defineStore("game", {
     },
 
     async getLobbyGame(gameId: string): Promise<GameData | null> {
-     try {
-       const docRef = doc(db, "games", gameId);
-      const docSnap = await getDoc(docRef);
+      try {
+        const docRef = doc(db, "games", gameId);
+        const docSnap = await getDoc(docRef);
 
-      if (docSnap.exists()) {
-        return docSnap.data() as GameData
-      } else {
-        return null;
+        if (docSnap.exists()) {
+          return docSnap.data() as GameData;
+        } else {
+          return null;
+        }
+      } catch (error) {
+        throw error;
       }
-     } catch (error) {
-      throw error
-     }
     },
 
     listenToGame(gameId: string) {
       try {
-        const gameDoc = doc(db, 'games', gameId);
+        const gameDoc = doc(db, "games", gameId);
 
-      onSnapshot(gameDoc, (snapshot) => {
-        const data = snapshot.data();
-        if (data) {
-          this.participants = data.participants || [];
-          console.log(this.participants, 'parti');
-          
-        }
-      });
+        onSnapshot(gameDoc, (snapshot) => {
+          const data = snapshot.data();
+          if (data) {
+            this.participants = data.participants || [];
+            console.log(this.participants, "parti");
+          }
+        });
       } catch (error) {
-        throw error
+        throw error;
       }
     },
 
     async joinGame(gameId: string, userId: string, name: string) {
-  const gameRef = doc(db, 'games', gameId);
+      const gameRef = doc(db, "games", gameId);
 
-  await updateDoc(gameRef, {
-    waitingRoom: arrayUnion(userId),
-    participants: arrayUnion({ userId, name }),
-  });
+      await updateDoc(gameRef, {
+        waitingRoom: arrayUnion(userId),
+        participants: arrayUnion({ userId, name }),
+      });
 
-  this.currentGameId = gameId;
-  this.currentUserName = name;
-}
+      this.currentGameId = gameId;
+      this.currentUserName = name;
+    },
   },
+
+  persist: true,
 });

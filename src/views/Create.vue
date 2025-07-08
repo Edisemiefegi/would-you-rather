@@ -114,7 +114,6 @@ const router = useRouter();
 
 const name = ref("");
 const selectedTopic = ref("");
-const previews = ref([]);
 
 type Option = { label: string; value: string };
 
@@ -125,7 +124,7 @@ interface SelectSetting {
     icon: string;
   };
 }
-const topic: Record<string, Object> = {
+const topic = {
   option: [
     { label: "Funny", value: "funny" },
     { label: "Food", value: "food" },
@@ -236,6 +235,6 @@ const CreatGame = async () => {
 
   console.log(gameId, store.currentGameId, "userinputs");
 
-  router.push(`/lobby?id=${store.currentGameId}`);
+  router.push(`lobby?id=${store.currentGameId}`);
 };
 </script>

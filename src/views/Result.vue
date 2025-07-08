@@ -57,8 +57,8 @@
 <script setup lang="ts">
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
-import Progress from "../components/base/progress.vue"; // assuming this is your progress bar
-import GameLayout from "../layout/GameLayout.vue"; // import your reusable component
+import Progress from "../components/base/Progress.vue"; 
+import GameLayout from "../layout/GameLayout.vue"; 
 
 const selectedOption = "Being invisible";
 

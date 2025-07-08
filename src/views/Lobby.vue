@@ -85,7 +85,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watchEffect } from "vue";
+import { ref, onMounted, computed, } from "vue";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
 import GameLayout from "../layout/GameLayout.vue";
@@ -106,7 +106,7 @@ const showJoinForm = ref(false);
 
 const cards = computed(() => store.participants);
 
-const shareableLink = `${window.location.origin}/lobby?id=${gameId}`;
+const shareableLink = `${window.location.origin}?#/lobby?id=${gameId}`;
 const copyLinkToClipboard = async () => {
   try {
     await navigator.clipboard.writeText(shareableLink);
@@ -120,64 +120,23 @@ type Participant = { userId: string; name: string };
 
 import { } from 'vue';
 
-watchEffect(async () => {
-  // if (!store.currentUserId || !gameId) return;
+// watchEffect(async () => {
+//   if (!gameId) return;
+//     if (!store.currentUserId) {
+//     showJoinForm.value = true;
+//     return;
+//   }
+//   try {
+//     const game = await store.getLobbyGame(gameId);
+//     gameData.value = game;
 
-  try {
-    const game = await store.getLobbyGame(gameId);
-    gameData.value = game;
+//     if (!game) return;
 
-    if (!game) return;
+//     const isCreator = game.createdBy === store.currentUserId;
 
-    const isCreator = game.createdBy === store.currentUserId;
-
-   if (!isCreator) {
-        const alreadyJoined = (game.participants as Participant[]).some(
-          (p) => p.userId === store.currentUserId
-        );
-
-        if (!alreadyJoined) {
-          showJoinForm.value = true;
-          return;
-        }
-      } else {
-        const creatorData = (game.participants as Participant[]).find(
-          (p) => p.userId === store.currentUserId
-        );
-        if (creatorData) {
-          store.setCurrentUser(creatorData.userId, creatorData.name);
-        }
-      }
-
-    preview.value = [
-      `${game.rounds} rounds`,
-      `${game.time}s per round`,
-      `Up to ${game.maxPlayers} players`,
-    ];
-
-    store.listenToGame(gameId);
-  } catch (error) {
-    console.log(error);
-  }
-});
-
-
-// watch(
-//   () => store.currentUserId,
-//   async (userId) => {
-//     if (!userId || !gameId) return;
-
-//     try {
-//       const game = await store.getLobbyGame(gameId);
-//       gameData.value = game;
-
-//       if (!game) return;
-
-//       const isCreator = game.createdBy === userId;
-
-//       if (!isCreator) {
+//    if (!isCreator) {
 //         const alreadyJoined = (game.participants as Participant[]).some(
-//           (p) => p.userId === userId
+//           (p) => p.userId === store.currentUserId
 //         );
 
 //         if (!alreadyJoined) {
@@ -186,64 +145,13 @@ watchEffect(async () => {
 //         }
 //       } else {
 //         const creatorData = (game.participants as Participant[]).find(
-//           (p) => p.userId === userId
+//           (p) => p.userId === store.currentUserId
 //         );
 //         if (creatorData) {
 //           store.setCurrentUser(creatorData.userId, creatorData.name);
 //         }
 //       }
 
-//       preview.value = [
-//         `${game.rounds} rounds`,
-//         `${game.time}s per round`,
-//         `Up to ${game.maxPlayers} players`,
-//       ];
-
-//       store.listenToGame(gameId);
-//     } catch (error) {
-//       console.log(error);
-//     }
-//   },
-//   { immediate: true }
-// );
-
-
-
-// onMounted(async () => {
-//   try {
-//     if (!gameId || !store.currentUserId) return;
-
-//     console.log(gameId, store.currentUserId, 'ssjj');
-    
-
-//     const game = await store.getLobbyGame(gameId);
-//     gameData.value = game;
-
-    
-//     if (!game) return;
-
-//     const isCreator = game.createdBy === store.currentUserId;
-
-//     if (!isCreator) {
-//       const alreadyJoined = (game.participants as Participant[]).some((p) => {
-//         console.log(p, "already");
-
-//         p.userId === store.currentUserId;
-//       });
-
-//       if (!alreadyJoined) {
-//         showJoinForm.value = true;
-//         return;
-//       }
-//     } else {
-//       const creatorData = (game.participants as Participant[]).find(
-//         (p) => p.userId === store.currentUserId
-//       );
-
-//       if (creatorData) {
-//         store.setCurrentUser(creatorData.userId, creatorData.name);
-//       }
-//     }
 //     preview.value = [
 //       `${game.rounds} rounds`,
 //       `${game.time}s per round`,
@@ -255,6 +163,55 @@ watchEffect(async () => {
 //     console.log(error);
 //   }
 // });
+
+
+
+onMounted(async () => {
+  try {
+    if (!gameId || !store.currentUserId) return;
+
+    console.log(gameId, store.currentUserId, 'ssjj');
+    
+
+    const game = await store.getLobbyGame(gameId);
+    gameData.value = game;
+
+    
+    if (!game) return;
+
+    const isCreator = game.createdBy === store.currentUserId;
+
+    if (!isCreator) {
+      const alreadyJoined = (game.participants as Participant[]).some((p) => {
+        console.log(p, "already");
+
+        p.userId === store.currentUserId;
+      });
+
+      if (!alreadyJoined) {
+        showJoinForm.value = true;
+        return;
+      }
+    } else {
+      const creatorData = (game.participants as Participant[]).find(
+        (p) => p.userId === store.currentUserId
+      );
+
+      if (creatorData) {
+        store.setCurrentUser(creatorData.userId, creatorData.name);
+      }
+    }
+    preview.value = [
+      `${game.rounds} rounds`,
+      `${game.time}s per round`,
+      `Up to ${game.maxPlayers} players`,
+    ];
+
+    store.listenToGame(gameId);
+  } catch (error) {
+    console.log(error);
+  }
+});
 
 const joinGame = async () => {
   if (!name.value.trim()) return;

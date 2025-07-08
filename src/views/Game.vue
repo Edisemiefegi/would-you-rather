@@ -24,7 +24,7 @@
         <!-- Options -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
           <Card
-          @click="nextGame(item)"
+          @click="nextGame()"
           v-for="item in gameoption" :key="item"
             class=" text-center cursor-pointer border-2 border-purple-200 hover:border-purple-500 transition rounded-xl"
           >
@@ -53,7 +53,7 @@ let intervalId: ReturnType<typeof setInterval>;
 
   const gameoption = ref(["Be invincible" , "Read minds"])
 
-const nextGame = (item) => {
+const nextGame = () => {
   router.push('/result')
 }
 
