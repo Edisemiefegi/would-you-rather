@@ -19,7 +19,7 @@
         <!-- Results -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Card
-            v-for="(option, index) in options"
+            v-for="(option) in options"
             :key="option.label"
             class="border-2 border-purple-200 p-4 space-y-2"
           >
