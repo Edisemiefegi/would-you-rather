@@ -1,16 +1,15 @@
 <template>
   <input
     v-bind="$attrs"
-    :value="modelValue"
     @input="onInput"
     :class="Inputstyle"
   />
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
-  modelValue: string;
-}>();
+// const props = defineProps<{
+//   modelValue: string;
+// }>();
 
 const emit = defineEmits<{
   (e: 'update:modelValue', value: string): void;
