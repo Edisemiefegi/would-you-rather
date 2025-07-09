@@ -110,13 +110,12 @@
 import {  useRouter } from "vue-router";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
-import { onMounted, ref,  } from "vue";
+import {  ref,  } from "vue";
 import { useGamestore } from "../store/game";
 
+const router = useRouter()
 
 const store = useGamestore()
-
-// console.log(game, store.currentUserId, 'sjssj');
 
 
 const buttons = ref([
@@ -171,15 +170,6 @@ const stepCard = ref([
   },
 ]);
 
-
-onMounted(() => {
-// store.uploadQuestions()
-console.log('sgsg');
-
-})
-
-
-const router = useRouter()
 
 const startGame = (item: string) => {
 router.push(item)

@@ -1,7 +1,7 @@
 <template>
   <main class="p-4">
     <Button
-      @click="router.push('/')"
+      @click="handleExit"
       variant="clear"
       class="flex items-center gap-2"
     >
@@ -22,7 +22,7 @@
           <h2 class="text-2xl font-bold">Game Lobby</h2>
           <p>Share this code with friends!</p>
           <Button
-          @click="copyLinkToClipboard"
+            @click="copyLinkToClipboard"
             variant="outline"
             size="large"
             class="text-purple-500 border-purple-400"
@@ -50,9 +50,9 @@
                 variant="outline"
                 size="small"
                 rounded
-                class="text-green-600 flex items-center gap-2 border-green-400 text-sm"
+                class="text-green-600  flex items-center gap-2 border-green-400 text-sm"
               >
-                <span class="w-2 h-2 bg-green-600 rounded-full"></span>Ready
+                <span class="w-1.5 h-1.5 bg-green-600 animate-ping rounded-full"></span>Ready
               </Button>
             </Card>
           </div>
@@ -85,7 +85,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, } from "vue";
+import { ref, onMounted, computed, watch } from "vue";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
 import GameLayout from "../layout/GameLayout.vue";
@@ -110,97 +110,49 @@ const shareableLink = `${window.location.origin}?#/lobby?id=${gameId}`;
 const copyLinkToClipboard = async () => {
   try {
     await navigator.clipboard.writeText(shareableLink);
-    alert('Game link copied to clipboard!');
+    alert("Game link copied to clipboard!");
   } catch (err) {
-    console.error('Failed to copy:', err);
+    console.error("Failed to copy:", err);
   }
 };
 
 type Participant = { userId: string; name: string };
 
-import { } from 'vue';
-
-// watchEffect(async () => {
-//   if (!gameId) return;
-//     if (!store.currentUserId) {
-//     showJoinForm.value = true;
-//     return;
-//   }
-//   try {
-//     const game = await store.getLobbyGame(gameId);
-//     gameData.value = game;
-
-//     if (!game) return;
-
-//     const isCreator = game.createdBy === store.currentUserId;
-
-//    if (!isCreator) {
-//         const alreadyJoined = (game.participants as Participant[]).some(
-//           (p) => p.userId === store.currentUserId
-//         );
-
-//         if (!alreadyJoined) {
-//           showJoinForm.value = true;
-//           return;
-//         }
-//       } else {
-//         const creatorData = (game.participants as Participant[]).find(
-//           (p) => p.userId === store.currentUserId
-//         );
-//         if (creatorData) {
-//           store.setCurrentUser(creatorData.userId, creatorData.name);
-//         }
-//       }
-
-//     preview.value = [
-//       `${game.rounds} rounds`,
-//       `${game.time}s per round`,
-//       `Up to ${game.maxPlayers} players`,
-//     ];
-
-//     store.listenToGame(gameId);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// });
-
-
-
 onMounted(async () => {
   try {
     if (!gameId || !store.currentUserId) return;
 
-    console.log(gameId, store.currentUserId, 'ssjj');
-    
-
     const game = await store.getLobbyGame(gameId);
     gameData.value = game;
 
-    
     if (!game) return;
 
     const isCreator = game.createdBy === store.currentUserId;
+    const currentParticipants = game.participants as Participant[];
+    const alreadyJoined = currentParticipants.some(
+      (p) => p.userId === store.currentUserId
+    );
 
-    if (!isCreator) {
-      const alreadyJoined = (game.participants as Participant[]).some((p) => {
-        console.log(p, "already");
+    const currentCount = currentParticipants.length;
+    const maxCount = parseInt(game.maxPlayers ?? "0");
 
-        p.userId === store.currentUserId;
-      });
+    // ✅If the user has NOT joined yet and lobby is FULL → block them
+    if (!alreadyJoined && currentCount > maxCount) {
+      alert("This game is full. You can create your own game and share your link.");
+      return router.push("/");
+    }
 
-      if (!alreadyJoined) {
-        showJoinForm.value = true;
-        return;
-      }
-    } else {
-      const creatorData = (game.participants as Participant[]).find(
+    if (isCreator || alreadyJoined) {
+      const user = currentParticipants.find(
         (p) => p.userId === store.currentUserId
       );
-
-      if (creatorData) {
-        store.setCurrentUser(creatorData.userId, creatorData.name);
+      if (user) {
+        store.setCurrentUser(user.userId, user.name);
       }
+    } else {
+      showJoinForm.value = true; 
     }
+
     preview.value = [
       `${game.rounds} rounds`,
       `${game.time}s per round`,
@@ -213,24 +165,64 @@ onMounted(async () => {
   }
 });
 
+
+// allow users to join game through the shared link
 const joinGame = async () => {
-  if (!name.value.trim()) return;
+  try {
+    if (!name.value.trim()) return;
 
-  await store.joinGame(gameId, store.currentUserId, name.value);
-  store.setCurrentUser(store.currentUserId, name.value);
+    
+ const currentCount = store.participants.length;
+const maxCount = parseInt(gameData.value?.maxPlayers ?? "0");
 
-  showJoinForm.value = false;
+if (currentCount > maxCount) {
+  alert("This game has already reached the maximum number of players.");
+  return router.push("/");
+}
 
-  preview.value = [
-    `${gameData.value?.rounds} rounds`,
-    `${gameData.value?.time}s per round`,
-    `Up to ${gameData.value?.maxPlayers} players`,
-  ];
+    await store.joinGame(gameId, store.currentUserId, name.value);
+    store.setCurrentUser(store.currentUserId, name.value);
 
-  store.listenToGame(gameId);
+
+
+    showJoinForm.value = false;
+
+    preview.value = [
+      `${gameData.value?.rounds} rounds`,
+      `${gameData.value?.time}s per round`,
+      `Up to ${gameData.value?.maxPlayers} players`,
+    ];
+
+    store.listenToGame(gameId);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const startGame = () => {
-  router.push("/rules");
+  store.startGame(gameId);
 };
+
+// run a callback func when ever gamestatus changes
+watch(
+  () => store.gameStatus,
+  (newStatus) => {
+    if (newStatus === "rules") {
+      router.push(`/rules?id=${gameId}`);
+    }
+  }
+);
+
+
+async function handleExit() {
+  try {
+    if (store.gameStatus === "completed") {
+      await store.deleteGame(store.currentGameId);
+    }
+
+    router.push("/"); 
+  } catch (error) {
+    console.error("Error exiting game:", error);
+  }
+}
 </script>

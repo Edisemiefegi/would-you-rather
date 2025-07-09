@@ -18,6 +18,10 @@
            Simple & Addictive!
           </h2>
         </div>
+         <Button
+          >
+            game starts in ⏳ {{ timeLeft }}s
+          </Button>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Card
@@ -31,10 +35,6 @@
           </Card>
         </div>
 
-        <Button block size="large" @click="startGame()">
-          <i class="pi pi-play" />
-          Start Playing
-        </Button>
       </GameLayout>
     </section>
   </main>
@@ -45,9 +45,15 @@ import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
 import GameLayout from "../layout/GameLayout.vue";
 import { useRouter } from "vue-router";
+import { useGamestore } from "../store/game";
+import { onMounted, watch, ref, onBeforeUnmount } from "vue";
 
 const router = useRouter()
+const store = useGamestore()
 
+
+const timeLeft = ref(10);
+let countdownInterval: number | null = null; // for clearing later
 
 const rules = [
   {
@@ -72,8 +78,33 @@ const rules = [
   },
 ];
 
+const gameId = store.currentGameId
 
-const startGame = () => {
-  router.push('/game')
-}
+
+onMounted(() => {
+  timeLeft.value = 10
+    store.listenToGame(gameId);
+
+  countdownInterval = setInterval(() => {
+    if (timeLeft.value > 0) {
+      timeLeft.value--;
+    }
+
+    if (timeLeft.value === 0) {
+      clearInterval(countdownInterval!); // stop timer
+      store.rulesTimer(gameId); // trigger next game state
+    }
+  }, 1000); // run every 1 second
+});
+
+// Clear interval if user leaves the page/component
+onBeforeUnmount(() => {
+  if (countdownInterval) clearInterval(countdownInterval);
+});
+
+watch(() => store.gameStatus, (newStatus) => {
+ if (newStatus === "playing") {
+    router.push(`/game?id=${gameId}`);
+  } 
+});
 </script>

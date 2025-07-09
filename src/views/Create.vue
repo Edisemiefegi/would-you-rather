@@ -126,26 +126,26 @@ interface SelectSetting {
 }
 const topic = {
   option: [
-    { label: "Funny", value: "funny" },
-    { label: "Food", value: "food" },
-    { label: "Travel", value: "travel" },
-    { label: "Relationships", value: "relationships" },
-    { label: "Superpowers", value: "superpowers" },
-    { label: "Lifestyle", value: "lifestyle" },
-    { label: "Tech", value: "tech" },
-    { label: "Random", value: "random" },
-    { label: "Deep", value: "deep" },
-    { label: "School", value: "school" },
-    { label: "Career", value: "career" },
-    { label: "Gaming", value: "gaming" },
-    { label: "Entertainment", value: "entertainment" },
-    { label: "Sports", value: "sports" },
-    { label: "Friendship", value: "friendship" },
-    { label: "Family", value: "family" },
-    { label: "Money", value: "money" },
-    { label: "Health", value: "health" },
-    { label: "Animals", value: "animals" },
-    { label: "Fantasy", value: "fantasy" },
+    { label: "Funny", value: "Funny" },
+    { label: "Food", value: "Food" },
+    { label: "Travel", value: "t=Fravel" },
+    { label: "Relationships", value: "Relationships" },
+    { label: "Superpowers", value: "Superpowers" },
+    { label: "Lifestyle", value: "Lifestyle" },
+    { label: "Tech", value: "Tech" },
+    { label: "Random", value: "Random" },
+    { label: "Deep", value: "Deep" },
+    { label: "School", value: "School" },
+    { label: "Career", value: "Career" },
+    { label: "Gaming", value: "Gaming" },
+    { label: "Entertainment", value: "Entertainment" },
+    { label: "Sports", value: "Sports" },
+    { label: "Friendship", value: "Friendship" },
+    { label: "Family", value: "Family" },
+    { label: "Money", value: "Money" },
+    { label: "Health", value: "Health" },
+    { label: "Animals", value: "Animals" },
+    { label: "Fantasy", value: "Fantasy" },
   ],
   label: { text: "Game Title", icon: "pi pi-trophy text-amber-500" },
 };
@@ -205,7 +205,8 @@ const selected = ref<Record<string, string>>({
 });
 
 const CreatGame = async () => {
-  if (
+  try {
+    if (
     !name.value ||
     !selectedTopic.value ||
     !selected.value.rounds ||
@@ -223,6 +224,8 @@ const CreatGame = async () => {
     return;
   }
 
+  
+
   const gameId = await store.createGame({
     title: selectedTopic.value,
     topicCategory: selectedTopic.value,
@@ -236,5 +239,9 @@ const CreatGame = async () => {
   console.log(gameId, store.currentGameId, "userinputs");
 
   router.push(`lobby?id=${store.currentGameId}`);
+  } catch (error) {
+    console.log(error);
+    
+  }
 };
 </script>
