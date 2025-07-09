@@ -137,7 +137,7 @@ onMounted(async () => {
     const maxCount = parseInt(game.maxPlayers ?? "0");
 
     // ✅If the user has NOT joined yet and lobby is FULL → block them
-    if (!alreadyJoined && currentCount > maxCount) {
+    if (!alreadyJoined && currentCount >= maxCount) {
       alert("This game is full. You can create your own game and share your link.");
       return router.push("/");
     }
@@ -175,7 +175,7 @@ const joinGame = async () => {
  const currentCount = store.participants.length;
 const maxCount = parseInt(gameData.value?.maxPlayers ?? "0");
 
-if (currentCount > maxCount) {
+if (currentCount >= maxCount) {
   alert("This game has already reached the maximum number of players.");
   return router.push("/");
 }
