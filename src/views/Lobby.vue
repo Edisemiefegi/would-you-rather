@@ -1,10 +1,6 @@
 <template>
   <main class="p-4">
-    <Button
-      @click="handleExit"
-      variant="clear"
-      class="flex items-center gap-2"
-    >
+    <Button @click="handleExit" variant="clear" class="flex items-center gap-2">
       <i class="pi pi-arrow-left" />
       Exit Game
     </Button>
@@ -50,15 +46,19 @@
                 variant="outline"
                 size="small"
                 rounded
-                class="text-green-600  flex items-center gap-2 border-green-400 text-sm"
+                class="text-green-600 flex items-center gap-2 border-green-400 text-sm"
               >
-                <span class="w-1.5 h-1.5 bg-green-600 animate-ping rounded-full"></span>Ready
+                <span
+                  class="w-1.5 h-1.5 bg-green-600 animate-ping rounded-full"
+                ></span
+                >Ready
               </Button>
             </Card>
           </div>
         </div>
 
         <Button
+        :loading="isLoading" :disabled="isDisabled"
           block
           size="large"
           @click="startGame()"
@@ -103,10 +103,15 @@ const gameData = ref<GameData | null>(null);
 const gameId = route.query.id as string;
 const name = ref("");
 const showJoinForm = ref(false);
+const isLoading = ref(false)
+const isDisabled = ref(false)
+
+type Participant = { userId: string; name: string };
 
 const cards = computed(() => store.participants);
 
 const shareableLink = `${window.location.origin}?#/lobby?id=${gameId}`;
+
 const copyLinkToClipboard = async () => {
   try {
     await navigator.clipboard.writeText(shareableLink);
@@ -115,8 +120,6 @@ const copyLinkToClipboard = async () => {
     console.error("Failed to copy:", err);
   }
 };
-
-type Participant = { userId: string; name: string };
 
 onMounted(async () => {
   try {
@@ -136,9 +139,11 @@ onMounted(async () => {
     const currentCount = currentParticipants.length;
     const maxCount = parseInt(game.maxPlayers ?? "0");
 
-    // ✅If the user has NOT joined yet and lobby is FULL → block them
+    // If the user has NOT joined yet and lobby is FULL block them
     if (!alreadyJoined && currentCount >= maxCount) {
-      alert("This game is full. You can create your own game and share your link.");
+      alert(
+        "This game is full. You can create your own game and share your link."
+      );
       return router.push("/");
     }
 
@@ -150,7 +155,7 @@ onMounted(async () => {
         store.setCurrentUser(user.userId, user.name);
       }
     } else {
-      showJoinForm.value = true; 
+      showJoinForm.value = true;
     }
 
     preview.value = [
@@ -165,25 +170,21 @@ onMounted(async () => {
   }
 });
 
-
 // allow users to join game through the shared link
 const joinGame = async () => {
   try {
     if (!name.value.trim()) return;
 
-    
- const currentCount = store.participants.length;
-const maxCount = parseInt(gameData.value?.maxPlayers ?? "0");
+    const currentCount = store.participants.length;
+    const maxCount = parseInt(gameData.value?.maxPlayers ?? "0");
 
-if (currentCount >= maxCount) {
-  alert("This game has already reached the maximum number of players.");
-  return router.push("/");
-}
+    if (currentCount >= maxCount) {
+      alert("This game has already reached the maximum number of players.");
+      return router.push("/");
+    }
 
     await store.joinGame(gameId, store.currentUserId, name.value);
     store.setCurrentUser(store.currentUserId, name.value);
-
-
 
     showJoinForm.value = false;
 
@@ -200,7 +201,17 @@ if (currentCount >= maxCount) {
 };
 
 const startGame = () => {
-  store.startGame(gameId);
+  try {
+      isLoading.value = true
+    isDisabled.value = true
+      store.startGame(gameId);
+
+  } catch (error) {
+    
+  }finally{
+    isLoading.value = false
+    isDisabled.value = false
+  }
 };
 
 // run a callback func when ever gamestatus changes
@@ -213,14 +224,10 @@ watch(
   }
 );
 
-
-async function handleExit() {
+function handleExit() {
   try {
-    if (store.gameStatus === "completed") {
-      await store.deleteGame(store.currentGameId);
-    }
-
-    router.push("/"); 
+    store.deleteGame(gameId);
+    router.push("/");
   } catch (error) {
     console.error("Error exiting game:", error);
   }

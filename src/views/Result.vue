@@ -53,7 +53,7 @@
         </div>
 
         <Button
-          :disabled="loading"
+           :loading="isLoading" :disabled="isDisabled"
           v-if="isHost"
           @click="goToNextRound"
           block
@@ -85,15 +85,9 @@ const selectedOption = ref("");
 const options = ref<{ label: string; text: string; percentage: number }[]>([]);
 const round = ref(1);
 const isHost = ref(false);
-const loading = ref(false);
+const isLoading = ref(false)
+const isDisabled = ref(false)
 
-// watch(
-//   () => route.query.round,
-//   (newVal) => {
-//     round.value = parseInt(newVal as string || '1');
-//     loadResult(); // <-- refetch result data
-//   }
-// );
 
 
 function updateResultDisplay(result: any) {
@@ -113,7 +107,6 @@ function updateResultDisplay(result: any) {
   ];
 }
 
-
 async function loadResult() {
   try {
     gameData.value = await store.getCurrentGameById(store.currentGameId);
@@ -123,25 +116,22 @@ async function loadResult() {
       (r: any) => r.round === round.value
     );
 
-    console.log(result, 'checking load ');
-    
+    console.log(result, "checking load ");
+
     if (!result) return;
 
-   if (result) {
-  updateResultDisplay(result);
-}
-
-
+    if (result) {
+      updateResultDisplay(result);
+    }
   } catch (error) {
     console.log(error);
   }
 }
 
-
 watch(
   () => route.query.round,
   (newRound) => {
-    const parsed = parseInt(newRound as string || "1");
+    const parsed = parseInt((newRound as string) || "1");
     round.value = parsed;
 
     loadResult();
@@ -153,71 +143,56 @@ watch(
   { immediate: true }
 );
 
-
 function goToNextRound() {
   try {
-    loading.value = true;
+    isLoading.value = true
+    isDisabled.value = true
     const nextRound = round.value + 1;
 
     const totalRounds = parseInt(gameData.value.rounds);
-    if (round.value < totalRounds) {
-      store.nextRound(nextRound, totalRounds);
 
-      // Navigate to the question or result page for the next round
-    } else {
-      router.push(`/summary?id=${store.currentGameId}`);
-    }
+    store.nextRound(nextRound, totalRounds);
   } catch (error) {
     console.log(error);
-  } finally {
-    loading.value = false;
+  } finally{
+    isLoading.value = false
+    isDisabled.value = false
   }
 }
 
 onMounted(async () => {
- await  loadResult();
+  await loadResult();
   store.listenToGame(store.currentGameId);
-store.listenForResult(round.value, (updatedResult: any) => {
-  updateResultDisplay(updatedResult);
+  store.listenForResult(round.value, (updatedResult: any) => {
+    updateResultDisplay(updatedResult);
+  });
 });
-  
-});
-
 
 watch(
   () => store.gameStatus,
   (newStatus) => {
-    //  console.log("Watcher triggered. New status:", newStatus);
     if (newStatus === "playing") {
       const nextRound = round.value + 1;
-      console.log(
-        store.gameStatus,
-        "resulttesting ",
-        
-      );
+      console.log(store.gameStatus, "resulttesting ");
 
       console.log("Navigating to /game with:", {
-  id: store.currentGameId,
-  round: nextRound
-});
+        id: store.currentGameId,
+        round: nextRound,
+      });
 
- router.replace({
-      path: "/game",
-      query: { id: store.currentGameId, round: nextRound },
-    });    }
+      router.replace({
+        path: "/game",
+        query: { id: store.currentGameId, round: nextRound },
+      });
+    }
 
-      if (newStatus === "completed") {
-           router.push(`/summary?id=${store.currentGameId}`);
+    if (newStatus === "completed") {
+      router.push(`/summary?id=${store.currentGameId}`);
 
-      console.log(
-       newStatus,
-        "completdtesting ",
-        
-      );
-
-}
+      console.log(newStatus, "completdtesting ");
+    }
   },
 
-   { immediate: true } 
+  { immediate: true }
 );
 </script>

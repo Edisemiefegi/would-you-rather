@@ -1,6 +1,10 @@
 <template>
   <main class="p-4">
-    <Button @click="router.push('/')" variant="clear" class="flex items-center gap-2">
+    <Button
+      @click="router.push('/')"
+      variant="clear"
+      class="flex items-center gap-2"
+    >
       <i class="pi pi-arrow-left" />
       Back
     </Button>
@@ -14,14 +18,9 @@
         <div class="flex flex-col items-center gap-4">
           <i class="pi pi-info-circle text-purple-500 text-3xl" />
 
-          <h2 class="text-2xl font-bold text-center">
-           Simple & Addictive!
-          </h2>
+          <h2 class="text-2xl font-bold text-center">Simple & Addictive!</h2>
         </div>
-         <Button
-          >
-            game starts in ⏳ {{ timeLeft }}s
-          </Button>
+        <Button> game starts in ⏳ {{ timeLeft }}s </Button>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Card
@@ -34,7 +33,6 @@
             <p class="text-sm text-gray-600">{{ rule.description }}</p>
           </Card>
         </div>
-
       </GameLayout>
     </section>
   </main>
@@ -48,12 +46,11 @@ import { useRouter } from "vue-router";
 import { useGamestore } from "../store/game";
 import { onMounted, watch, ref, onBeforeUnmount } from "vue";
 
-const router = useRouter()
-const store = useGamestore()
-
+const router = useRouter();
+const store = useGamestore();
 
 const timeLeft = ref(10);
-let countdownInterval: number | null = null; // for clearing later
+let countdownInterval: number | null = null; 
 
 const rules = [
   {
@@ -78,12 +75,11 @@ const rules = [
   },
 ];
 
-const gameId = store.currentGameId
-
+const gameId = store.currentGameId;
 
 onMounted(() => {
-  timeLeft.value = 10
-    store.listenToGame(gameId);
+  timeLeft.value = 10;
+  store.listenToGame(gameId);
 
   countdownInterval = setInterval(() => {
     if (timeLeft.value > 0) {
@@ -102,9 +98,12 @@ onBeforeUnmount(() => {
   if (countdownInterval) clearInterval(countdownInterval);
 });
 
-watch(() => store.gameStatus, (newStatus) => {
- if (newStatus === "playing") {
-    router.push(`/game?id=${gameId}`);
-  } 
-});
+watch(
+  () => store.gameStatus,
+  (newStatus) => {
+    if (newStatus === "playing") {
+      router.push(`/game?id=${gameId}`);
+    }
+  }
+);
 </script>

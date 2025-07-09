@@ -87,7 +87,7 @@ onMounted(async () => {
 
     store.listenToGame(store.currentGameId);
 
-    console.log(   currentQuestion.value, round.value,  "current questions ");
+    console.log(currentQuestion.value, round.value, "current questions ");
   } catch (error) {
     console.log(error);
   }
@@ -99,10 +99,11 @@ watch(
   (newStatus) => {
     if (newStatus === "showingResult") {
       store.listenForResult(round.value, () => {
- router.replace({
-      path: "/result",
-      query: { id: store.currentGameId, round: round.value },
-    });      });
+        router.replace({
+          path: "/result",
+          query: { id: store.currentGameId, round: round.value },
+        });
+      });
     }
   }
 );
@@ -133,14 +134,5 @@ function handleSelect(option: string) {
   }
 }
 
-// function goToNext() {
-//   clearInterval(intervalId);
-//   if (currentQuestionIndex.value + 1 < selectedQuestions.value.length) {
-//     currentQuestionIndex.value++;
-//     currentQuestion.value = selectedQuestions.value[currentQuestionIndex.value];
-//     startTimer();
-//   } else {
-//     router.push("/result");
-//   }
-// }
+
 </script>

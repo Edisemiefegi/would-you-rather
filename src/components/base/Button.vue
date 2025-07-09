@@ -1,6 +1,9 @@
 <template>
 
-    <button v-bind="$attrs" :class="btnClass">
+    <button  :disabled="props.disabled || props.loading" v-bind="$attrs" :class="btnClass">
+       <span v-if="props.loading" class="loader mr-2">
+        <i class="pi pi-spin pi-spinner"></i>
+       </span>
     <slot />
   </button>
 
@@ -18,6 +21,8 @@ export interface ButtonProps {
   rounded?: boolean;
   block?: boolean;
   variant?: VariantType
+   loading?: boolean;
+  disabled?: boolean;
 }
 
 // defineProps<ButtonProps>() ==> prop
@@ -28,7 +33,9 @@ const props = withDefaults(defineProps<ButtonProps>(), {
   rounded: false,
   block: false,
   size: "default",
-  variant: "default"
+  variant: "default",
+   loading: false,
+  disabled: false,
 });
 
 const SIZE_CLASS: Record<SizeType, string> = {

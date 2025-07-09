@@ -10,6 +10,7 @@ import {
   updateDoc,
   arrayUnion,
   deleteDoc,
+  auth,
 } from "../service/firebase.ts";
 import type { GameData } from "../types/index.ts";
 import questions from "../service/questions.json";
@@ -243,8 +244,7 @@ export const useGamestore = defineStore("game", {
           const data = docSnap.data();
           if (!data) return;
 
-          console.log(data, 'resultdata');
-          
+          console.log(data, "resultdata");
 
           const result = (data.results || []).find(
             (r: any) => r.round === round
@@ -276,17 +276,28 @@ export const useGamestore = defineStore("game", {
       }
     },
 
-
     async deleteGame(gameId: string) {
-  try {
-    const gameRef = doc(db, "games", gameId);
-    await deleteDoc(gameRef);
-    console.log(`Game ${gameId} deleted successfully.`);
-  } catch (error) {
-    console.error("Failed to delete game:", error);
-    throw error;
-  }
-}
+      try {
+        const gameRef = doc(db, "games", gameId);
+        await deleteDoc(gameRef);
+
+        onSnapshot(gameRef, (docSnap) => {
+          if (!docSnap.exists()) {
+            alert("The game was deleted.");
+            auth.currentUser?.delete(); // Delete anonymous user
+          }
+        });
+        // console.log(`Game ${gameId} deleted successfully.`);
+      } catch (error) {
+        console.error("Failed to delete game:", error);
+        throw error;
+      }
+    },
+
+    deleteUser() {
+      auth.currentUser?.delete(); // Delete anonymous user
+
+    },
   },
 
   persist: true,

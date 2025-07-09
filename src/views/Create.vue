@@ -1,10 +1,6 @@
 <template>
   <main class="p-4">
-    <Button
-      @click="router.push('/')"
-      variant="clear"
-      class="flex items-center gap-2"
-    >
+    <Button @click="handleExit" variant="clear" class="flex items-center gap-2">
       <i class="pi pi-arrow-left" />
       Back to Home
     </Button>
@@ -87,7 +83,7 @@
             </div>
           </Card>
 
-          <Button block size="large" @click="CreatGame()">
+          <Button :loading="isLoading" :disabled="isDisabled" block size="large" @click="CreatGame()">
             <i class="pi pi-trophy"></i>
             Create Epic Game Room
           </Button>
@@ -114,6 +110,8 @@ const router = useRouter();
 
 const name = ref("");
 const selectedTopic = ref("");
+const isLoading = ref(false)
+const isDisabled = ref(false)
 
 type Option = { label: string; value: string };
 
@@ -206,42 +204,53 @@ const selected = ref<Record<string, string>>({
 
 const CreatGame = async () => {
   try {
+    isLoading.value = true
+    isDisabled.value = true
     if (
-    !name.value ||
-    !selectedTopic.value ||
-    !selected.value.rounds ||
-    !selected.value.time ||
-    !selected.value.players
-  ) {
-    alert("Please fill all fields!");
-    return;
-  }
+      !name.value ||
+      !selectedTopic.value ||
+      !selected.value.rounds ||
+      !selected.value.time ||
+      !selected.value.players
+    ) {
+      alert("Please fill all fields!");
+      return;
+    }
 
-  const userId = auth.currentUser?.uid;
+    const userId = auth.currentUser?.uid;
 
-  if (!userId) {
-    console.error("userId not found");
-    return;
-  }
+    if (!userId) {
+      console.error("userId not found");
+      return;
+    }
 
-  
+    const gameId = await store.createGame({
+      title: selectedTopic.value,
+      topicCategory: selectedTopic.value,
+      rounds: selected.value.rounds,
+      time: selected.value.time,
+      maxPlayers: selected.value.players,
+      createdBy: userId,
+      userName: name.value,
+    });
 
-  const gameId = await store.createGame({
-    title: selectedTopic.value,
-    topicCategory: selectedTopic.value,
-    rounds: selected.value.rounds,
-    time: selected.value.time,
-    maxPlayers: selected.value.players,
-    createdBy: userId,
-    userName: name.value,
-  });
+    console.log(gameId, store.currentGameId, "userinputs");
 
-  console.log(gameId, store.currentGameId, "userinputs");
-
-  router.push(`lobby?id=${store.currentGameId}`);
+    router.push(`lobby?id=${store.currentGameId}`);
   } catch (error) {
     console.log(error);
-    
+  }finally{
+    isLoading.value = false
+    isDisabled.value = false
   }
 };
+
+function handleExit() {
+  try {
+    store.deleteUser();
+    router.push("/");
+  } catch (error) {
+    console.error("Error exiting game:", error);
+  }
+}
 </script>

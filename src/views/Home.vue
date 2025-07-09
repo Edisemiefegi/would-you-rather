@@ -1,6 +1,6 @@
 <template>
   <main class="h-full pt-20 w-full space-y-20 md:px-0 px-6 bg-[#F5F8FC]">
-    <section class="gap-10  flex flex-col items-center w-full h-full">
+    <section class="gap-10 flex flex-col items-center w-full h-full">
       <div class="flex gap-6">
         <Button size="large" class="animate-bounce">
           <i class="pi pi-th-large"></i>
@@ -20,7 +20,7 @@
         mind-bending dilemmas that'll spark endless conversations.
       </p>
 
-      <div class="flex flex-wrap gap-5">
+      <div class="flex flex-wrap justify-center gap-5">
         <Button
           variant="outline"
           rounded
@@ -34,16 +34,18 @@
 
       <div class="flex flex-col gap-6">
         <Card
-        @click="startGame(item.path)"
+          @click="startGame(item.path)"
           v-for="item in gameCard"
           :key="item.icon"
           class="flex flex-col gap-6 md:w-lg"
         >
           <div class="flex justify-between items-center w-full">
             <div class="flex gap-4">
-              <Button  class="!rounded-xl"> <i :class="item.icon"></i> </Button>
+              <Button class="!rounded-xl"> <i :class="item.icon"></i> </Button>
               <div>
-                <h1 class="md:text-3xl text-xl font-bold">{{ item.heading }}</h1>
+                <h1 class="md:text-3xl text-xl font-bold">
+                  {{ item.heading }}
+                </h1>
                 <p class="text-gray-600">{{ item.text }}</p>
               </div>
             </div>
@@ -97,7 +99,11 @@
             Join thousands of players making impossible choices!
           </p>
         </div>
-        <Button @click="router.push('/create')" size="large" class="!rounded-xl">
+        <Button
+          @click="router.push('/create')"
+          size="large"
+          class="!rounded-xl"
+        >
           <i class="pi pi-caret-right"></i>
           Create Your First Game
         </Button>
@@ -107,16 +113,15 @@
 </template>
 
 <script setup lang="ts">
-import {  useRouter } from "vue-router";
+import { useRouter } from "vue-router";
 import Button from "../components/base/Button.vue";
 import Card from "../components/base/Card.vue";
-import {  ref,  } from "vue";
-import { useGamestore } from "../store/game";
+import { ref } from "vue";
+// import { useGamestore } from "../store/game";
 
-const router = useRouter()
+const router = useRouter();
 
-const store = useGamestore()
-
+// const store = useGamestore();
 
 const buttons = ref([
   {
@@ -143,7 +148,7 @@ const gameCard = ref([
     btnIcon: "pi pi-sparkles",
   },
   {
-    path: `lobby?id=${store.currentGameId}`,
+    path: `/create`,
     icon: "pi pi-users",
     heading: "Join Game",
     text: "Experience the fun with our interactive game",
@@ -170,10 +175,9 @@ const stepCard = ref([
   },
 ]);
 
-
 const startGame = (item: string) => {
-router.push(item)
-}
+  router.push(item);
+};
 </script>
 
 <style scoped></style>
