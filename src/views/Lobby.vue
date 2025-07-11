@@ -17,15 +17,16 @@
         <div class="text-center space-y-3">
           <h2 class="text-2xl font-bold">Game Lobby</h2>
           <p>Share this code with friends!</p>
-          <Button
+<div>
+            <Button
             @click="copyLinkToClipboard"
             variant="outline"
-            size="large"
             class="text-purple-500 border-purple-400"
           >
             {{ shareableLink }}
           </Button>
-        </div>
+
+</div>        </div>
 
         <div>
           <p class="text-xl font-bold mb-2">

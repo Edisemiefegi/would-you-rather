@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-xl py-10 mx-auto lg:px-0 px-4">
+  <div class="container w-fit md:w-xl py-10 mx-auto lg:px-0 px-6">
     <GameLayout
       :heading="'You have completed this game 🥳☺ Hope you had fun!! 💃'"
     >
